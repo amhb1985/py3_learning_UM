@@ -5,9 +5,8 @@ If you go on a wonderful holiday leaving on day number 3 (a Wednesday) and you r
 home after 10 nights you would return home on a Saturday (day 6). Write a general version 
 of the program which asks for the starting day number, and the length of your stay, 
 and it will tell you the number of day of the week you will return on.
-
 '''
-# Define the days of the week
+# Define the days of the week , we do not need the whole name of them
 days_of_week = ["Su", "Mo", "Tu", "Wed", "Thu", "Fr", "Sa"]
 
 # Ask the user for the starting day number (0 to 6)
