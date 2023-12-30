@@ -11,7 +11,7 @@ def square(x):
     return x ** 2
 
 # Assign the variable xyz the value of 5 squared using the square function
-xyz = square(5)
+xyz = square(6)
 
 # Print the result
 print(xyz)
