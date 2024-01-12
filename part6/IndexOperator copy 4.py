@@ -12,5 +12,13 @@ print(type(julia))
 print(type(infos))
 '''
 
-print(len(julia))
-print(len(infos))
+#print(len(julia))
+#print(len(infos))
+
+#add another paragraf or exactly Index to the tuple
+julia = julia[:3] + ("eat ,Pray, love", 2010) + julia[:5]
+print(julia)
+
+# NOTE: in the list but it will not working!!
+#infos = [:1] + ["let do it for "] + [:3]
+print(infos)
