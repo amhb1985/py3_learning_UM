@@ -2,11 +2,9 @@
 this is the py test for the index
 and about some training in Py3 
 '''
-#defintion one Variable :
-school = "Marthin Luther"
+#how we can count one thing in a List:
+#for the String value we can just run this" nameof vale .count("name of chracter ") 
 
-#making from one Var file to one Index file:
-m = school[3]
-print(m)
-lastchar = school[-1]
-print(lastchar)
+a = "I have had an apple on my desk before!"
+print(a.count("b"))
+print(a.count("ha"))
