@@ -3,9 +3,13 @@ this is the py test for the index
 and about some training in Py3 
 '''
 
-# so we test again the Slice Operator:
-
-a_list = ['a', 'b', 'c', 'd', 'f', 'e', 'g', 'h']
+# so we are trying to join these variable:
 
 
-print (a_list[2:4])
+by = "You are"
+az = "doing a great "
+io = "job"
+qy = "keep it up!"
+
+message = by + az + io + qy
+print (message)
