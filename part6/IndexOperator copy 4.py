@@ -25,5 +25,5 @@ julia = julia[:3] + ("eat ,Pray, love", 2010) + julia[:5]
 
 #next we try to make one SubGroup from one main
 new_lst = ["computer", "luxurious", "basket", "crime", 0, 2.49, "institution", "slice", "sun", ["water", "air", "fire", "earth"], "games", 2.7, "code", "java", ["birthday", "celebration", 1817, "party", "cake", 5], "rain", "thunderstorm", "top down"]
-sub_lst = new_lst[8:12]
+sub_lst = new_lst[8:10]
 print (sub_lst)
