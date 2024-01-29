@@ -12,3 +12,15 @@ print("Number of characters in str1:", numbs)
 numb = len(str1)
 print("Counter with len :", numb )
 
+
+
+numbers = list(range(41))
+sum1 = 0
+for w in numbers:
+    sum1 = sum1 + 1
+print(sum1)
+
+sum1 = sum(numbers)
+
+# Print the result
+print("Sum of the numbers from 0 through 40:", sum1)
