@@ -2,6 +2,7 @@
 
 '''
 7.8.2
+
 Image Objects:
 
 Image(filename)
