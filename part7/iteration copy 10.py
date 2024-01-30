@@ -1,6 +1,26 @@
-#we can iterate through the indexes by generating a sequence of them, using the range function.
+#we can change the colour of our imagae with this script:
 
-fruits = ['apple', 'pear', 'apricot', 'cherry', 'peach']
+#1- import package
+import image
 
-for n in range(len(fruits)):
-    print(n, fruits[n])
+
+#2. inpuut the imagae
+img = image.Image("luther.jpg")
+win = image.ImageWin(img.getWidth(), img.getHeight())
+img.draw(win)
+img.setDelay(1,15)   # setDelay(0) turns off animation
+
+for row in range(img.getHeight()):
+    for col in range(img.getWidth()):
+        p = img.getPixel(col, row)
+
+        newred = 255 - p.getRed()
+        newgreen = 255 - p.getGreen()
+        newblue = 255 - p.getBlue()
+
+        newpixel = image.Pixel(newred, newgreen, newblue)
+
+        img.setPixel(col, row, newpixel)
+
+img.draw(win)
+win.exitonclick()
