@@ -1,36 +1,41 @@
 # the Information about the RGB Numbers for imagae:
-# 
- Color
+NOTICE. 
+the first article is Color
+and the next 3 Number are :
 Red
 Green
 Blue
 
-Red
+Color:  Red
 255
+0
+0
+Color:  Green
+0
+255
+0
+
+Color:  Blue
+0
+0
+255
+
+Color:  White
+255
+255
+255
+
+Color:  Black
+0
 0
 0
 
-Green
-0
-255
-0
-Blue
-0
-0
-255
-White
-255
-255
-255
-Black
-0
-0
-0
-Yellow
+Color:  Yellow
 255
 255
 0
-Magenta
+
+Color:  Magenta
 255
 0
 255
