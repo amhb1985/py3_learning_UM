@@ -32,8 +32,8 @@ Set the pixel at column 100, row 50 to be mp.
 
 
 
-
-import image
+#because of the bug we comand the import 
+#import image
 img = image.Image("luther.jpg")
 
 print(img.getWidth())
