@@ -22,5 +22,5 @@ print(sum1)
 
 sum1 = sum(numbers)
 
-# Print the result
+# Print the result at end:
 print("Sum of the numbers from 0 through 40:", sum1)
