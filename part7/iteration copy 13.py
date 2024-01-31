@@ -1,6 +1,6 @@
 #They are called getRed, getGreen, and getBlue. In addition, 
 #we can ask a pixel to change an intensity value using its setRed, setGreen, and setBlue methods.
-
+#so thiese are the codes:
 '''
 Pixel(r,g,b)
 Pixel(20,100,50)
@@ -36,3 +36,4 @@ Set the blue component intensity to 156.
 
 
 '''
+
