@@ -4,4 +4,4 @@
 at the first we have Pranteze Bug or Synatx:
 or t it names EOF synatx Error!
 '''
-print ("hello !"
+print ("hello meine schatzileini!")

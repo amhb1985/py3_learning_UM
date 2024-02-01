@@ -1,0 +1,78 @@
+# the Information about the RGB Numbers for imagae:
+NOTICE. 
+the first article is Color
+and the next 3 Number are :
+Red
+Green
+Blue
+
+Color:  Red
+255
+0
+0
+Color:  Green
+0
+255
+0
+
+Color:  Blue
+0
+0
+255
+
+Color:  White
+255
+255
+255
+
+Color:  Black
+0
+0
+0
+
+Color:  Yellow
+255
+255
+0
+
+Color:  Magenta
+255
+0
+255
+
+
+''
+Pixel(r,g,b)
+Pixel(20,100,50)
+Create a new pixel with 20 red, 100 green, and 50 blue.
+
+
+getRed()
+r = p.getRed()
+Return the red component intensity.
+
+getGreen()
+r = p.getGreen()
+Return the green component intensity.
+
+getBlue()
+r = p.getBlue()
+Return the blue component intensity.
+
+
+setRed()
+p.setRed(100)
+Set the red component intensity to 100.
+
+
+setGreen()
+p.setGreen(45)
+Set the green component intensity to 45.
+
+
+setBlue()
+p.setBlue(156)
+Set the blue component intensity to 156.
+
+
+'''
