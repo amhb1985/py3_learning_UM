@@ -27,7 +27,7 @@ else:
 '''
 
 # the next test with turtle : 
-    import turtle
+    #import turtle
 wn = turtle.Screen()
 
 amy = turtle.Turtle()
