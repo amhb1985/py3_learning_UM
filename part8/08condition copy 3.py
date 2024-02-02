@@ -23,10 +23,11 @@ print(n % 2 == 0 or n % 3 == 0)'''
 
 #one test for Smart evalution for example in the airport
 
-total_weight = int(input('Enter total weight of luggage:'))
+total_weight = int(input('Enter total weight of luggage in Kg:'))
 num_pieces = int(input('Number of pieces of luggage?'))
 
-if num_pieces != 0 and total_weight / num_pieces > 10:
-   print('Average weight is greater than 50 pounds -> $100 surcharge.')
-
+if num_pieces != 0 and total_weight / num_pieces > 30:
+   print('Average weight is greater than 30 Kilogram -> 100 € surcharge.')
+if num_pieces != 0 and total_weight / num_pieces <  30:
+   print ("averageWeight is OK and less than 30kg!")
 print('Luggage check complete.')
