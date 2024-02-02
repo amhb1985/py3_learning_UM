@@ -39,7 +39,7 @@ HINT 2: the in operator checks whether a substring is present in a string.
 Hard-coded answers will receive no credit.
 '''
 
-
+'''
 items = ["whirring", "wow!", "calendar", "wry", "glass", "", "llama","tumultuous","owing"]
 
 ​items = ["whirring", "wow!", "calendar", "wry", "glass", "", "llama", "tumultuous", "owing"]
@@ -56,7 +56,7 @@ for item in items:
 
 # Print the final count
 print("Number of strings containing 'w':", acc_num)
-
+'''
 
 
 #Write code that will count the number of vowels in the sentence s and assign the result to the variable num_vowels. For this problem, vowels are only a, e, i, o, and u. Hint: use the in operator with vowels.
