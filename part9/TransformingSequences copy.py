@@ -13,6 +13,18 @@ alist = ['a', 'b', 'c', 'd', 'e', 'f']
 alist[1:3] = []
 print(alist)
 
+'''
+
+#another form to delet :
+a = ['one', 'two', 'three']
+del a[1]
+print(a)
+
+alist = ['a', 'b', 'c', 'd', 'e', 'f']
+del alist[1:5]
+print(alist)
+
+
 
 #insert or add one data to list (with the number)
 alist = ['a', 'd', 'f']
