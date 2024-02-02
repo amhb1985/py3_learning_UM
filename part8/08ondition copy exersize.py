@@ -20,7 +20,7 @@ Ask the user to enter a year. Compute the following:
 
 #Your program should print an error message if the user provides a date that is out of range.
 
-'''
+
 def calculate_easter(year):
     if year < 1900 or year > 2099:
         print("Error: Year must be between 1900 and 2099.")
@@ -46,7 +46,7 @@ def calculate_easter(year):
     
     return f"Easter Sunday for the year {year} is on {month} {date_of_easter}."
 
-'''
+
 # Input year from the user
 year = int(input("Enter a year between 1900 and 2099: "))
 print(calculate_easter(year))
@@ -58,6 +58,7 @@ rainfall_mi is a string that contains the average number of inches of rainfall i
 
 Hard-coded answers will receive no credit.
 rainfall_mi = "1.65, 1.46, 2.05, 3.03, 3.35, 3.46, 2.83, 3.23, 3.5, 2.52, 2.8, 1.85"
+'''
 '''
 # Split the string into a list of rainfall values
 rainfall_values = rainfall_mi.split(", ")
@@ -74,3 +75,4 @@ for rainfall in rainfall_values:
         num_rainy_months += 1
 
 print("Number of months with more than 3 inches of rainfall:", num_rainy_months)
+'''
