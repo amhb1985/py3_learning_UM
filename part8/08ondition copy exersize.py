@@ -50,3 +50,27 @@ def calculate_easter(year):
 # Input year from the user
 year = int(input("Enter a year between 1900 and 2099: "))
 print(calculate_easter(year))
+
+
+
+'''
+rainfall_mi is a string that contains the average number of inches of rainfall in Michigan for every month (in inches) with every month separated by a comma. Write code to compute the number of months that have more than 3 inches of rainfall. Store the result in the variable num_rainy_months. In other words, count the number of items with values > 3.0.
+
+Hard-coded answers will receive no credit.
+rainfall_mi = "1.65, 1.46, 2.05, 3.03, 3.35, 3.46, 2.83, 3.23, 3.5, 2.52, 2.8, 1.85"
+'''
+# Split the string into a list of rainfall values
+rainfall_values = rainfall_mi.split(", ")
+
+# Initialize a counter for rainy months
+num_rainy_months = 0
+
+# Iterate through the rainfall values
+for rainfall in rainfall_values:
+    # Convert the rainfall value to a float
+    rainfall_float = float(rainfall)
+    # Check if the rainfall is greater than 3.0 inches
+    if rainfall_float > 3.0:
+        num_rainy_months += 1
+
+print("Number of months with more than 3 inches of rainfall:", num_rainy_months)
