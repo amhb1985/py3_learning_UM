@@ -28,5 +28,6 @@ num_pieces = int(input('Number of pieces of luggage?'))
 
 if num_pieces != 0 and total_weight / num_pieces > 30:
    print('Average weight is greater than 30 Kilogram -> 100 € surcharge.')
-if num_pieces != 0 and total_weight / num_pieces < 30:print ("averageWeight is OK and less than 30kg!")
+if num_pieces != 0 and total_weight / num_pieces <  30:
+   print ("averageWeight is OK and less than 30kg!")
 print('Luggage check complete.')
