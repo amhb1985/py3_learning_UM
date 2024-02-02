@@ -1,6 +1,6 @@
 #Mutability
 # we can set an new data to list :
-fruit = ["banana", "apple", "cherry"]
+'''fruit = ["banana", "apple", "cherry"]
 print(fruit)
 
 fruit[0] = "pear"
@@ -21,3 +21,13 @@ print(alist)
 
 alist[4:4] = ['e']
 print(alist)
+'''
+
+#string change :
+greeting = "Hello, world!"
+newGreeting = 'J' + greeting[1:]
+print(newGreeting)
+print(greeting)          # same as it was
+
+print(type(greeting))
+print(type(newGreeting))
