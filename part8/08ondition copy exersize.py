@@ -20,7 +20,7 @@ Ask the user to enter a year. Compute the following:
 
 #Your program should print an error message if the user provides a date that is out of range.
 
-
+'''
 def calculate_easter(year):
     if year < 1900 or year > 2099:
         print("Error: Year must be between 1900 and 2099.")
@@ -46,7 +46,7 @@ def calculate_easter(year):
     
     return f"Easter Sunday for the year {year} is on {month} {date_of_easter}."
 
-
+'''
 # Input year from the user
 year = int(input("Enter a year between 1900 and 2099: "))
 print(calculate_easter(year))
