@@ -1,1 +1,43 @@
-Transforming Sequences
+# Mutation Methode:
+
+#List Methods.
+# x= Number or value
+# n = element Number in List 
+
+
+add
+.append()
+mylist.append(5)
+
+
+insert
+.insert(n, x)
+mylist.insert(1, 12)
+
+count
+count(x)
+print(mylist.count(12))
+
+ask index 
+.index(x)
+print(mylist.index(3))
+
+revers all od elements 
+mylist.reverse()
+
+sorting from small to big
+mylist.sort()
+
+remove one elemet from List
+.remove(x)
+mylist.remove(5)
+
+last element in list 
+.pop()
+lastitem = mylist.pop()
+
+
+
+
+
+
