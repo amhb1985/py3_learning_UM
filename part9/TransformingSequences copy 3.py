@@ -23,4 +23,9 @@ substitutions
 Involved! See String Format Method, below
 '''
 
+ss = "Hello, World"
+print(ss.upper())
 
+tt = ss.lower()
+print(tt)
+print(ss)
