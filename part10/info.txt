@@ -9,3 +9,11 @@ Introduction: Working with Data Files:
 | close         | filevariable.close()       | File use is complete.  |
 
 
+for the next step we can use now another commend:
+
+ecipe for Reading and Processing a File:
+#1. Open the file using with and open.
+
+#2. Use .readlines() to get a list of the lines of text in the file.
+
+#3. Use a for loop to iterate through the strings in the list, each being one line from the file. On each iteration, process that line of text
