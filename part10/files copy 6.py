@@ -7,16 +7,20 @@ for number in range(1, 5):
     '''
 #part 2.(set and creat a file and then wirte in it)
 filename = "number_x_2.txt"
-outfile = open(filename, "w")
+'''outfile = open(filename, "w")
 
-for number in range(1, 5):
+for number in range(1, 10):
     square = number * 2
     outfile.write(str(square) + "\n")
 
 outfile.close()
+'''
 
-'''
+
+#for another commend we can just set again 1#st the file name:number_x_2
+filename = "number_x_2.txt"
+
+#an then we must open and do what we do:
 infile = open(filename, "r")
-print(infile.read()[:2])
+print(infile.read()[:4])
 infile.close()
-'''
