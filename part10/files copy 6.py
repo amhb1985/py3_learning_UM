@@ -17,6 +17,6 @@ outfile.close()
 
 '''
 infile = open(filename, "r")
-print(infile.read()[:10])
+print(infile.read()[:2])
 infile.close()
 '''
