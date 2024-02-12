@@ -12,9 +12,9 @@ print(ks[0])                      # Display the first key
 
 
 '''
-inventory02 = {'apples': 430, 'bananas': 312, 'oranges': 525, 'pears': 217}
+inventory02 = {'apples': 430, 'bananas': 312, 'Annas': 525, 'pears': 217}
 
 for k in inventory02:
     print("Got key", k)
 
-    
+
