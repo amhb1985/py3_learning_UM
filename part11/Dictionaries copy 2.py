@@ -23,3 +23,14 @@ print(olympics)
 # for one exact key we can use this form:
 print(olympics['gold'])
 
+#for adding/updating a data to one key probably as integer or foloat 
+#we can use this form:
+
+#first we must crat or have a Dictionary List:
+swimmers = {'Manuel':4, 'Lochte':12, 'Adrian':7, 'Ledecky':5, 'Dirado':4, 'Phelps':23}
+
+#2. dann we must first choose or key and then we can put methamatics formula
+swimmers['Phelps'] =  swimmers['Phelps'] + 5
+
+#3. at end we can see the reults:
+print(swimmers)
