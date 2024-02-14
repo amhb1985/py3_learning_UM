@@ -10,7 +10,7 @@ print(zoo_list["cat"])
 #for another example we must notice that we can
 #use another form with '':
 
-#create a dictionary
+#create a dictionary for next
 olympics = {
     'gold' : 7,
     'silver' : 8,
