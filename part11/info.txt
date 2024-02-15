@@ -1,0 +1,6 @@
+
+Dictionary methods
+Dictionaries have a number of useful built-in methods. The following table provides a summary and more details can be found in the Python Documentation.
+
+
+
