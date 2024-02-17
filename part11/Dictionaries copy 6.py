@@ -1,3 +1,6 @@
+
+
+
 my_dict = {}  # Create an empty dictionary
 
 # Add a key-value pair
@@ -15,3 +18,24 @@ print(my_dict)
 
 #print the one of exact Key:
 print(my_dict["joe"])
+
+
+
+
+#in the List Formate we had the .append()#
+
+my_list = []  # Create an empty list
+
+# Append elements to the list
+my_list.append("element1")
+my_list.append("element2")
+my_list.append("Book")
+my_list.append("Pen")
+
+
+
+print(my_list)
+
+
+
+
