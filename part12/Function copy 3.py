@@ -8,5 +8,5 @@ def hello2(s):
     print("Hello " + s)
     print("Glad to meet you")
 
-hello2("Iman" + " and Jackie")
+hello2("Iman" + "," + " Jackie " + " and" + "Amir")
 hello2("Class " * 3)
