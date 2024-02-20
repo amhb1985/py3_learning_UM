@@ -37,5 +37,7 @@ my_list.append("Pen")
 print(my_list)
 
 
+#for another methode of Dictionary we can use the Methde of the .get() 
+
 
 
