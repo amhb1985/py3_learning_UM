@@ -18,4 +18,5 @@ def mylen(seq):
 
 #so we can know calculate all of the words or Numbers withe set in mylen()!
 print(mylen("hello"))
-print(mylen([1, 2, 7]))
+print(mylen([1, 7]))
+
