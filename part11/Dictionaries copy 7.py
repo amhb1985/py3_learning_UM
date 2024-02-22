@@ -22,13 +22,16 @@ print(medal_count.values())
 '''#2. Given the dictionary swimmers, 
 add an additional key-value pair to the dictionary 
 with "Phelps" as the key and the integer 23 as the value. Do not rewrite the entire dictionary.
+
+The dictionary golds contains information about how many gold medals each country 
+won in the 2016 Olympics. But today, 
+Spain won 2 more gold medals. Update golds to reflect this information.
+
 '''
 
 
-swimmers = {'Manuel':4, 'Lochte':12, 'Adrian':7, 'Ledecky':5, 'Dirado':4}
+golds = {"Italy": 12, "USA": 33, "Brazil": 15, "China": 27, "Spain": 19, "Canada": 22, "Argentina": 8, "England": 29}
 
-swimmers["Phelps"] = 23
+golds["Spain"] += 2
 
-print(swimmers)
-#print (swimemrs["Phelps"])
-
+print(golds)
