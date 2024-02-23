@@ -12,7 +12,10 @@ print(z)
 
 '''
 
+#first we can creat the dictionary 
 numbers = [1, 12, 13, 4]
+
+#then we create the def as name bar and back again with return 
 def foo(bar):
     aug = str(bar) + "street"
     return aug
@@ -20,6 +23,8 @@ def foo(bar):
 addresses = []
 for item in numbers:
     addresses.append(foo(item))
+
+
 
 
 
