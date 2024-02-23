@@ -33,7 +33,7 @@ print(result)
 
 
 #First square 2, then add 3.
-def square(x):
+'''def square(x):
     return x*x
 
 def g(y):
@@ -43,3 +43,20 @@ def h(y):
     return square(y) + 3
 
 print(h(2))
+'''
+
+#q2_whats the answer?
+
+def square(x):
+    return x*x
+
+def g(y):
+    return y + 3
+
+def h(y):
+    return square(y) + 3
+
+#✔️ h(2) returns 7, so y is bound to 7 when g is invoked.
+print (g(h(2)))
+
+      
