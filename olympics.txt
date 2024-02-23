@@ -1,4 +1,5 @@
 its just a test to part 11-5 in Dictionary :
+and then we can test it in a Dictionary in 11-6 for counting the Letter:
 
 sadfasdfasd sadfasdfasdsd
 sdfasdf sadfasdfasd 
