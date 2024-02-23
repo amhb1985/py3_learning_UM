@@ -22,7 +22,7 @@ print(my_dict["joe"])
 
 
 #Memorial for the last Part as List!:
-#in the List Formate we had the .append()#
+#in the List we had the .append()#
 
 my_list = []  # Create an empty list
 
