@@ -13,7 +13,7 @@ result = mult(3)
 print(result)  # Output will be 24
 
 '''
-
+'''
 def pow(b, p):
     y = b ** p
     return y
@@ -27,4 +27,19 @@ def square(x):
 n = 5
 result = square(n)
 print(result)
+'''
 
+#What will the following code output?
+
+
+#First square 2, then add 3.
+def square(x):
+    return x*x
+
+def g(y):
+    return y + 3
+
+def h(y):
+    return square(y) + 3
+
+print(h(2))
