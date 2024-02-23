@@ -19,23 +19,23 @@ print(my_dict)
 #print the one of exact Key:
 print(my_dict["joe"])
 
-'''
 
 #Memorial for the last Part as List!:
 #in the List we had the .append()#
-'''
+
 my_list = []  # Create an empty list
 
-#''' Append elements to the list
+# Append elements to the list
+
 my_list.append("element1")
 my_list.append("element2")
 my_list.append("Book")
 my_list.append("Pen")
-'''
+
 
 
 #print(my_list)
-'''
+
 
 #for another methode of Dictionary we can use the Methde of the .get() 
 
@@ -44,11 +44,11 @@ my_list.append("Pen")
 f = open('olympics.txt', 'r')
 txt = f.read()
 # now txt is one long string containing all the characters
-'''
+
 letter_counts = {} # start with an empty dictionary
 letter_counts['t'] = 0  # intiialize the t counter
 letter_counts['s'] = 0  # initialize the s counter
-    for c in txt:
+for c in txt:
     if c == 't':
         letter_counts[c] = letter_counts[c] + 1   # increment the t counter
     elif c == 's':
@@ -57,7 +57,8 @@ letter_counts['s'] = 0  # initialize the s counter
 print("t: " + str(letter_counts['t']) + " occurrences")
 print("s: " + str(letter_counts['s']) + " occurrences")
 
-'''
+''' 
+
 #  I wanna now try it for another Alphabet like a and b:
 
 #0. we must open and read one txt data, here 
@@ -72,11 +73,11 @@ for e in text:
     if e == 'a':
         letter_counter[e] = letter_counter[e] + 1  # increment the a counter
     elif e == 'b':
-        letter_counter[e] = letter_counter [e] + 1 # increment the a counter
+        letter_counter[e] = letter_counter[e] + 1 # increment the a counter
 
 
-print("a: " + str(letter_counts['a']) + " occurrences")
-print("b: " + str(letter_counts['b']) + " occurrences")
+print("a: " + str(letter_counter['a']) + " occurrences")
+print("b: " + str(letter_counter['b']) + " occurrences")
 
 
      
