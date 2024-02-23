@@ -2,7 +2,7 @@
 
 
 #
-def addit(x):
+'''def addit(x):
     return x + 5
 
 def mult(x):
@@ -12,4 +12,19 @@ def mult(x):
 result = mult(3)
 print(result)  # Output will be 24
 
+'''
+
+def pow(b, p):
+    y = b ** p
+    return y
+
+
+
+def square(x):
+    a = pow(x, 2)
+    return a
+
+n = 5
+result = square(n)
+print(result)
 
