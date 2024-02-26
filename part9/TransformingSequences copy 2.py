@@ -26,3 +26,5 @@ print(mylist)
 lastitem = mylist.pop()
 print(lastitem)
 print(mylist)
+
+#test without VB IDE
