@@ -1,4 +1,4 @@
-#
+#the while loop
 
 theSum = 0
 x = -1
@@ -7,3 +7,4 @@ while (x != 0):
     theSum = theSum + x
 
 print(theSum)
+
