@@ -5,7 +5,7 @@
 #Do not use the len method.
 
 
-#notice: we dont have this text file here!
+#notice: we dont have this text file here!but we can use another text:
 num_lines = 0
 
 # Open the file
