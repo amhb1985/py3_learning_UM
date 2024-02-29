@@ -1,5 +1,5 @@
 
-# 10.08 Writing Text Files¶
+# 10.08 Writing Text Files
 #after running this code, part 1 and part 2 , we can see our file 
 #with the name "squared_numbers" and with text format under the main folder
 
