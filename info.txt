@@ -1,1 +1,1 @@
-This is the tryining to the whle in Py
+This is the tryining test for the while Loop in Py
