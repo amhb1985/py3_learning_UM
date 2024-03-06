@@ -1,6 +1,6 @@
 # the Test said us ehats can we do with condition in turtle commend:
 #Notice becaus of the lack of turtle import the code will not working:
-
+#just for py platform in MU
 '''
  import turtle
 wn = turtle.Screen()
