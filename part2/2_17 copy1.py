@@ -9,6 +9,7 @@ Ask the user for the time now (in hours), and then ask for the number of hours t
 Your program should output what the time will be on the clock when the alarm goes off.
 '''
 # Ask the user : the current time
+#we can input the current time
 current_time = int(input("Wie spät ist jetzt? : "))
 
 # Ask the user : the number of hours to wait for the alarm
