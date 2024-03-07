@@ -14,7 +14,7 @@ P = 10000  # principal amount!
 n = 12     # number of times interest is compounded per year
 r = 0.08   # annual interest rate!
 
-# Prompt user for the number of years
+# Prompt user for  number of years
 t = int(input("Enter the number of years: "))
 
 # Calculate the final amount using the compound interest formula
