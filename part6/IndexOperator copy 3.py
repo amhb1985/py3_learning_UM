@@ -14,6 +14,7 @@ s = "python rocks"
 print(s[3] + s[-4])
 
 #you can see that inside of INDEX we can see all type of var:
+#changing again to repeat test
 alist = [3, 67, "cat", [56, 57, "dog"], [ ], 3.14, False]
-print(alist[2])
+print(alist[3])
 

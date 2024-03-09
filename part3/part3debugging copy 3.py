@@ -13,3 +13,5 @@ tax = 0.08 * subTotal
 print("tax on", subtotal, "is:", tax)
 # we can see the error as just simple mistake to input the number
 
+
+
