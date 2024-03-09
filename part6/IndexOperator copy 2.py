@@ -6,7 +6,8 @@ and about some training in Py3
 school = "Marthin Luther"
 
 #making from one Var file to one Index file:
-m = school[3]
+#changing the Number of Index to training again
+m = school[0]
 print(m)
-lastchar = school[-1]
+lastchar = school[2]
 print(lastchar)

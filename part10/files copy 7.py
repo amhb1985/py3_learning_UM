@@ -7,3 +7,5 @@ for line in lines[:4]:
     print(line)
 #print(lines[:4])
 fileref.close()
+
+
