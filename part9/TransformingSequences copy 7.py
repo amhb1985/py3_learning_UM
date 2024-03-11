@@ -2,7 +2,7 @@
 
 
 #1. set an list as Numbers:
-nums = [3, 5, 8]
+nums = [3, 2, 8]
 
 #2. set the newlist for Accuulation
 accum = []
