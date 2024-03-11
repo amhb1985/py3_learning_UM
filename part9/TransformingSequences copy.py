@@ -43,3 +43,4 @@ print(greeting)          # same as it was
 
 print(type(greeting))
 print(type(newGreeting))
+'''
