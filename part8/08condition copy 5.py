@@ -26,3 +26,5 @@ c = a + b
 print("Value of a:", a)
 print("Value of b:", b)
 print("Value of c:", c)
+#test agian with this:
+print("Value of d:", d)
