@@ -13,7 +13,7 @@ else:
 
 # Given variables
 a = 10
-b = 15
+b = 25
 
 # Check if b is greater than a
 if b > a:
