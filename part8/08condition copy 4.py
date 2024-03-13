@@ -4,7 +4,8 @@
 #2. not in
 
 #the easiest sample for this is:
-'''print('p' in 'apple')
+#we can set and ask one alphabet for example a as string in one another variable 
+print('p' in 'apple')
 print('i' in 'apple')
 print('ap' in 'apple')
 print('pa' in 'apple')
@@ -13,8 +14,8 @@ print('a' in 'a')
 print('apple' in 'apple')
 print('' in 'a')
 print('' in 'apple')
-'''
 
-#2 NOT IN
-print('x' not in 'apple')
+
+print('y' not in 'apple')
+
 
