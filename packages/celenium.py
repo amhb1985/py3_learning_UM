@@ -1,5 +1,5 @@
 # we can now trying the celenium in mac
-
+#this one is working_but anothers have proböem _ i mean with the selenium
 import csv
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
