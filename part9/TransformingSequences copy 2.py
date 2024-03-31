@@ -15,12 +15,12 @@ mylist.insert(1, 12)
 print(mylist)
 #Add another 5 in the List for counting: ".count((5))"
 print(mylist.count(5))
-'''
-print(mylist.index(3))
+
+#print(mylist.index(3))
 print(mylist.count(5))
 
+print("revrese_List:")
 mylist.reverse()
-print(mylist)
 
 mylist.sort()
 print(mylist)
@@ -31,6 +31,3 @@ print(mylist)
 lastitem = mylist.pop()
 print(lastitem)
 print(mylist)
-
-#test without VB IDE
-'''
