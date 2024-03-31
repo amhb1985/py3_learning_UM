@@ -5,10 +5,12 @@
 mylist = []
 mylist.append(5)
 mylist.append(27)
-mylist.append(3)
-mylist.append(12)
+
+#mylist.append(3)
+#mylist.append(12)
 print(mylist)
 
+'''
 mylist.insert(1, 12)
 print(mylist)
 print(mylist.count(12))
@@ -30,3 +32,4 @@ print(lastitem)
 print(mylist)
 
 #test without VB IDE
+'''
