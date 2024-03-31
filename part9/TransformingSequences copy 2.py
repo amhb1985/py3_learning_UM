@@ -8,13 +8,12 @@ mylist.append(27)
 
 #mylist.append(3)
 #mylist.append(12)
-print(mylist)
 
-'''
+
 mylist.insert(1, 12)
 print(mylist)
 print(mylist.count(12))
-
+'''
 print(mylist.index(3))
 print(mylist.count(5))
 
