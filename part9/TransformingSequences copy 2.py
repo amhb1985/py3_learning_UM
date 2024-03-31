@@ -22,12 +22,15 @@ print(mylist.count(5))
 print("revrese_List:")
 mylist.reverse()
 
+print("sort:")
 mylist.sort()
 print(mylist)
 
+print("remove 5 from List:")
 mylist.remove(5)
 print(mylist)
 
+print("Last Item is:")
 lastitem = mylist.pop()
 print(lastitem)
 print(mylist)
