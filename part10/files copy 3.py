@@ -17,7 +17,7 @@ with open('emotion_words.txt', 'r') as file:
 
 # Print the number of lines
 print("Number of lines:", num_lines)
-
+ # ok end 
 
 
 
