@@ -1,5 +1,6 @@
 #Alternative File Reading Methods:
 '''
+
 1.  write
 filevar.write(astring)
 Add a string to the end of the file.
