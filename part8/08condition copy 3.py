@@ -13,7 +13,7 @@ print(x or y)
 print(x and y)
 print(not x)
 '''
-
+'''
 x = 5
 #print(x > 0 and x < 10)
 
@@ -21,8 +21,8 @@ print(x > 3)
 #n = 25
 #print(n % 2 == 0 or n % 3 == 0)
 
-
 '''
+
 #one test for Smart evalution for example in the airport
 
 total_weight = int(input('Enter total weight of luggage in Kg:'))
@@ -33,4 +33,3 @@ if num_pieces != 0 and total_weight / num_pieces > 30:
 if num_pieces != 0 and total_weight / num_pieces <  30:
    print ("averageWeight is OK and less than 30kg!")
 print('Luggage check complete.')
-'''
