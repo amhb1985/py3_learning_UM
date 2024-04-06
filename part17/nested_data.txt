@@ -1,3 +1,9 @@
 
 
 this is about information for the Nested data 
+
+
+in the nested data we have some diffrent type of the nested:
+
+- list in list >>>    [] > []    for example   data = [  [1, 2, 3 ] ,  ["A","b","c" ]  ]
+-  Dictionary in List  {} > []        for example   DATA_B = [ { "a" :1 , "b" : 2 }, { "DD" :4 , "EE" : 5 },  ]
