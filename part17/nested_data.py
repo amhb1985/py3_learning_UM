@@ -12,3 +12,4 @@ print([20, 20, 40][2])
 
 # for the first example as nested 1 we can do the same :
 print(nested1[1][0])
+
