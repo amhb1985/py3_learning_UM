@@ -26,6 +26,7 @@ info = {'personal_data':
           'age': 20,
           'major': 'Information Science',
           'physical_features':
+          # so next we wanna for example change all of colorto to 95
              {'color': {'eye': 'blue',
                         'hair': 'brown'},
               'height': "5'8"}
