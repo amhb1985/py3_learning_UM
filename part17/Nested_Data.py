@@ -38,6 +38,9 @@ info = {'personal_data':
       }
 #now after the set color we'll define the personal data and 
 #another realated nested Data or list
+
+#for our goel to change the color we can all of the item = 95
+info['personal_data']['physical_features']['color'] = 95
 color = info['personal_data']['physical_features']['color']
 print(color)
 
