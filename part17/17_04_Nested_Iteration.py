@@ -26,10 +26,13 @@ last_names = []
 
 #2. set a loop
 for entertainer in info:
-    #3.01 : set/define witch element (here last name is entertainer[1] )
+    #3.01 : set and define witch element (here last name is entertainer[1] )
     #3.02 : then we must .append() it in to list
     last_names.append(entertainer[1])
     print(last_names)
+
+
+
     
 
 
