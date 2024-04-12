@@ -11,7 +11,8 @@ def sumTo(aBound):
     #whle ..... >>> return ..
     while aNumber <= aBound:  #is less than or equal
         theSum = theSum + aNumber #0 +1 = 1
-        aNumber = aNumber + 1
+        #changing to a Number+2
+        aNumber = aNumber + 2
     return theSum
 
 print(sumTo(4))
