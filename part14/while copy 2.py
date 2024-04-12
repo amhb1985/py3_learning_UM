@@ -1,8 +1,7 @@
 
 
 #the while (Loop )statment:
-
-
+#definition a Sum 
 def sumTo(aBound):
     """ Return the sum of 1+2+3 ... n """
 
