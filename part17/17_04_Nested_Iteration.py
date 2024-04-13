@@ -37,6 +37,8 @@ for entertainer in info:
     for val in entertainer: 
        print(val)
 
+for val in info[1]:
+    print (val)
 
 
 
