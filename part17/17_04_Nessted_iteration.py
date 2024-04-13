@@ -18,4 +18,5 @@ for lst in L:
             for charachter in word:
                    if charachter == 'b':
                           b_strings.append(word)
+                          break
 print(b_strings)
