@@ -32,10 +32,10 @@ for entertainer in info:
     #3.02 : then we must .append() it in to list
     last_names.append(entertainer[1])
     #print(last_names)
-print(info[1][1])
-#for entertainer in info:
-    #for val in entertainer: 
-     #  print(val)
+#print(info[1][1])
+for entertainer in info:
+    for val in entertainer: 
+       print(val)
 
 
 
