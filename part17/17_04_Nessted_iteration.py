@@ -14,6 +14,8 @@ b_strings = []
                 #print(ourlist >> #1)
 for lst in L:
     for word in lst:
-        if 'c' in word:
-            b_strings.append(word)
+        #started loop again for 3 time:
+            for charachter in word:
+                   if charachter == 'b':
+                          b_strings.append(word)
 print(b_strings)
