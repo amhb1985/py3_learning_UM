@@ -1,6 +1,6 @@
 
 original = [['dogs', 'puppies'], ['cats', "kittens"]]
-#
+#we creat one list as copy with [:]
 copied_version = original[:]
 print(copied_version)
 print(copied_version is original)
