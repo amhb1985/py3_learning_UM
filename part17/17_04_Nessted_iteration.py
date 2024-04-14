@@ -19,4 +19,24 @@ for lst in L:
                    if charachter == 'b':
                           b_strings.append(word)
                           break
+print('The words in our list with "b" are/is: ')                   
 print(b_strings)
+                   
+
+#testing another example for seerching word for the Nested_iteration                  
+o_strings = []
+for lst2 in L:
+    for word2 in lst2:
+        #started loop again for 3 time:
+            for charachter2 in word2:
+                   if charachter2 == 'o':
+                          o_strings.append(word2)
+                          break
+
+print('The words in our list with "o" are/is: ')                   
+print(o_strings)
+
+
+
+
+
