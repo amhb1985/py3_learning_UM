@@ -21,7 +21,8 @@ for lst in L:
                           break
 print('The words in our list with "b" are/is: ')                   
 print(b_strings)
-                   
+print('_                            __')                   
+print('_                            __')                   
 
 #testing another example for seerching word for the Nested_iteration                  
 o_strings = []
@@ -35,6 +36,7 @@ for lst2 in L:
 
 print('The words in our list with "o" are/is: ')                   
 print(o_strings)
+
 
 
 
