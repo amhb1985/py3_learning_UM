@@ -20,8 +20,9 @@ new = ls[2:4]
 #print(new)
 
 
-b = "My, what a lovely day"
-x = b.split(',')
+b = "hi what a lovely day"
+x = b.split(',')#set and add ' ,' with .split
+#prinz (x)
 z = "".join(x)
 y = z.split()
 a = "".join(y)
