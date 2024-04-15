@@ -11,7 +11,9 @@ sports = ["football","tennis","bascetbll","volyball","Chess"]
 
 #we can set the list as the last 3 with -3:
 last = sports[-3:]
+first = sports[0]
 #print (last)
+#print(first)
 
 ls = ['run', 'world', 'travel', 'lights', 'moon', 'baseball', 'sea']
 new = ls[2:4]
