@@ -37,8 +37,11 @@ shallow_copy_version = original[:]
 deeply_copied_version = copy.deepcopy(original)
 original.append("Hi there")
 original[0].append(["marsupials"])
+
+#because of . append in our Org list we'll see the str: "Hi there"
 print("-------- our Original List :-----------")
 print(original)
+
 print("-------- deep copy  -----------")
 print(deeply_copied_version)
 print("-------- shallow copy -----------")
