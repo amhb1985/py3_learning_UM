@@ -710,13 +710,24 @@ res = {
 
 #without any selection we can see all of 
 import json
+'''
 print(json.dumps(res, indent=2))
 print("-----------")
 print(type(res))
 print(res.keys())
 
-
+'''
 #after that we ca use the online Editor for the all of json script to test it
 #for this one we can use this link:
 # https://jsoneditoronline.org/
 # we must copy all of the list but all of them must be between []
+
+print(type(res))
+print(res.keys())
+res2 = res['statuses']
+#so then we try to extract somethimg from level2
+print("----Level 2-----")
+#whats the type
+print(type(res2)) # it's a list!
+#and how many we have it
+print(len(res2))
