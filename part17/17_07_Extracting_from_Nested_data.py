@@ -714,3 +714,9 @@ print(json.dumps(res, indent=2))
 print("-----------")
 print(type(res))
 print(res.keys())
+
+
+#after that we ca use the online Editor for the all of json script to test it
+#for this one we can use this link:
+# https://jsoneditoronline.org/
+
