@@ -707,3 +707,10 @@ res = {
     }
   ]
 }
+
+#without any selection we can see all of 
+import json
+print(json.dumps(res, indent=2))
+print("-----------")
+print(type(res))
+print(res.keys())
