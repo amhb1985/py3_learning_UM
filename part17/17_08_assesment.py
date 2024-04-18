@@ -46,7 +46,7 @@ print(test2)
 test3 = 6.6 in L[2]
 print(test3)
 '''
-
+'''
 #Q5:Provided is a nested 
 #data structure. Follow the instructions in the comments below. Do not hard code.
 
@@ -66,7 +66,7 @@ print(whole)
 physics= 'physics' in nested
 print(physics)
 
-
+'''
 
 #Q6:The variable nested_d contains a nested dictionary with the gold medal
  #counts for the top four countries in the past three Olympics. 
@@ -81,7 +81,7 @@ print(london_gold)
 
 '''
 
-
+'''
 #Q7:
 sports = {'swimming': ['butterfly', 'breaststroke', 'backstroke', 'freestyle'], 'diving': ['springboard', 'platform', 'synchronized'], 'track': ['sprint', 'distance', 'jumps', 'throws'], 'gymnastics': {'women':['vault', 'floor', 'uneven bars', 'balance beam'], 'men': ['vault', 'parallel bars', 'floor', 'rings']}}
 
@@ -101,5 +101,20 @@ print(v3)
 # Assign the string 'rings' to the name v4
 v4 =sports['gymnastics']['men'][3]
 print(v4)
+'''
 
+#8: Given the dictionary, nested_d, save the medal count 
+#for the USA from all three Olympics in the dictionary to 
+#the list US_count.
+nested_d = {'Beijing':{'China':51, 'USA':36, 'Russia':22, 'Great Britain':19}, 'London':{'USA':46, 'China':38, 'Great Britain':29, 'Russia':22}, 'Rio':{'USA':35, 'Great Britain':22, 'China':20, 'Germany':13}}
+#set an empty List as US_count
+US_count = []
+#2. set a Loop with for Key in our nested list
+for key in nested_d:
+    #2.1 set if for the searching exact key in our Dictionary as [key]:
+    if 'USA' in nested_d[key]:
+        #2.2 append (add) the result of our searching key info in our empty List
+        US_count.append(nested_d[key]['USA'])
+#at end we use the print to show our results in our List
+print(US_count)
 
