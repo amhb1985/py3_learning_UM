@@ -74,10 +74,32 @@ print(physics)
  #London Olympics to the variable london_gold. 
 #Use indexing. Do not hardcode.
 
-
+'''
 nested_d = {'Beijing':{'China':51, 'USA':36, 'Russia':22, 'Great Britain':19}, 'London':{'USA':46, 'China':38, 'Great Britain':29, 'Russia':22}, 'Rio':{'USA':35, 'Great Britain':22, 'China':20, 'Germany':13}}
 london_gold=nested_d['London']['Great Britain']
 print(london_gold)
 
+'''
+
+
+#Q7:
+sports = {'swimming': ['butterfly', 'breaststroke', 'backstroke', 'freestyle'], 'diving': ['springboard', 'platform', 'synchronized'], 'track': ['sprint', 'distance', 'jumps', 'throws'], 'gymnastics': {'women':['vault', 'floor', 'uneven bars', 'balance beam'], 'men': ['vault', 'parallel bars', 'floor', 'rings']}}
+
+# Assign the string 'backstroke' to the name v1
+#like the 2 Question we must set the search but here is :
+# >>. DICTIONARY [][] >>
+#1.first must the name of DIC 
+#2. must set the index [] and then [WICH LIST]
+v1 =sports['swimming'][2]
+print(v1)
+# Assign the string 'platform' to the name v2
+v2 =sports['diving'][1]
+print(v2)
+# Assign the list ['vault', 'floor', 'uneven bars', 'balance beam'] to the name v3
+v3 =sports['gymnastics']['women']
+print(v3)
+# Assign the string 'rings' to the name v4
+v4 =sports['gymnastics']['men'][3]
+print(v4)
 
 
