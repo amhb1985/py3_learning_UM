@@ -154,6 +154,7 @@ athletes = [['Phelps', 'Lochte', 'Schooling', 'Ledecky', 'Franklin'], ['Felix', 
 #1. now we create two empty Lists:
 t = []
 other =[]
+d = []
 #2.we must use the loop but we need if and else
 #. for our Lists in our orginal list
 for lists in athletes:
@@ -162,11 +163,15 @@ for lists in athletes:
         #3.1 we must set now if:
         if 't' in athletes: #searching the exact word (here as 't')
             t.append(athletes)
+        elif 'd' in athletes:
+            #tetst another word with elif
+            d.append(athletes)
         else:
             other.append(athletes)
   
 print('the words with the "t" is/are :', t)
 print('___________________________')
+print('the words with the "d" is/are :', d)
 print('___________________________')
 print('the  another words without the  "t" is/are :',other)
 
