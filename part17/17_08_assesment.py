@@ -28,7 +28,7 @@ orange = 'orange' in lst [0]
 print(orange)
 '''
 
-
+'''
 #Q3 : Below, we’ve provided a list of lists. Use in statements to create variables 
 #with Boolean values - see the ActiveCode window for further directions.
 L = [[5, 8, 7], ['hello', 'hi', 'hola'], [6.6, 1.54, 3.99], ['small', 'large']]
@@ -45,3 +45,26 @@ print(test2)
 #set an variable as test3 and searchs info(here as Float)
 test3 = 6.6 in L[2]
 print(test3)
+'''
+
+#Q5:Provided is a nested 
+#data structure. Follow the instructions in the comments below. Do not hard code.
+
+# Check to see if the string data is a key in nested, if it is, assign True to the variable data, otherwise assign False.
+data='data' in nested
+
+# Check to see if the integer 24 is in the value of the key data, if it is then assign to the variable twentyfour the value of True, otherwise False.
+twentyfour=24 in nested['data'] or 24 in nested['window']
+print(twentyfour)    
+
+# Check to see that the string 'whole' is not in the value of the key window. If it's not, then assign to the variable whole the value of True, otherwise False.
+li=nested['window']
+whole= 'whole' not in li
+print(whole)
+
+# Check to see if the string 'physics' is a key in the dictionary nested. If it is, assign to the variable physics, the value of True, otherwise False.
+physics= 'physics' in nested
+print(physics)
+
+
+
