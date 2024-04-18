@@ -130,7 +130,7 @@ for key in nested_d:
 print('Germany results is: ' ,(Germany))
 
 '''
-
+'''
 #Q9:Iterate through the contents of l_of_l and assign the third element of sublist to 
 #a new list called third.
 l_of_l = [['purple', 'mauve', 'blue'], ['red', 'maroon', 'blood orange', 'crimson'], ['sea green', 'cornflower', 'lavender', 'indigo'], ['yellow', 'amarillo', 'mac n cheese', 'golden rod']]
@@ -142,6 +142,33 @@ for list in l_of_l:
     third.append(list[2])
 print(third)
 
+'''
+
+#Q10:
+#Given below is a list of lists of athletes. Create a list, t, 
+#that saves only the athlete’s name if it contains the letter “t”. 
+#If it does not contain the letter “t”, save the athlete name into list other.
+
+
+athletes = [['Phelps', 'Lochte', 'Schooling', 'Ledecky', 'Franklin'], ['Felix', 'Bolt', 'Gardner', 'Eaton'], ['Biles', 'Douglas', 'Hamm', 'Raisman', 'Mikulak', 'Dalton']]
+#1. now we create two empty Lists:
+t = []
+other =[]
+#2.we must use the loop but we need if and else
+#. for our Lists in our orginal list
+for lists in athletes:
+    #2 >< for orginal List in :
+    for athletes in lists:
+        #3.1 we must set now if:
+        if 't' in athletes: #searching the exact word (here as 't')
+            t.append(athletes)
+        else:
+            other.append(athletes)
+  
+print('the words with the "t" is/are :', t)
+print('___________________________')
+print('___________________________')
+print('the  another words without the  "t" is/are :',other)
 
 
 
