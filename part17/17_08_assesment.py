@@ -106,6 +106,7 @@ print(v4)
 #8: Given the dictionary, nested_d, save the medal count 
 #for the USA from all three Olympics in the dictionary to 
 #the list US_count.
+#for thr secound test we change the US to the Germay!
 nested_d = {'Beijing':{'China':51, 'USA':36, 'Russia':22, 'Great Britain':19}, 'London':{'USA':46, 'China':38, 'Great Britain':29, 'Russia':22}, 'Rio':{'USA':35, 'Great Britain':22, 'China':20, 'Germany':13}}
 #set an empty List as US_count
 US_count = []
@@ -117,4 +118,15 @@ for key in nested_d:
         US_count.append(nested_d[key]['USA'])
 #at end we use the print to show our results in our List
 print(US_count)
+
+Germany = []
+#2. set a Loop with for Key in our nested list
+for key in nested_d:
+    #2.1 set if for the searching exact key in our Dictionary as [key]:
+    if 'Germany' in nested_d[key]:
+        #2.2 append (add) the result of our searching key info in our empty List
+        Germany.append(nested_d[key]['Germany'])
+#at end we use the print to show our results in our List
+print('Germany results is: ' ,(Germany))
+
 
