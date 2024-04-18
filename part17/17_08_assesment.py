@@ -29,3 +29,19 @@ print(orange)
 '''
 
 
+#Q3 : Below, we’ve provided a list of lists. Use in statements to create variables 
+#with Boolean values - see the ActiveCode window for further directions.
+L = [[5, 8, 7], ['hello', 'hi', 'hola'], [6.6, 1.54, 3.99], ['small', 'large']]
+
+# Test if 'hola' is in the list L. Save to variable name test1
+#set an variable as test1 searchs info(here 'hola' as string)
+test1 = 'hoal' in L
+print(test1)
+# Test if [5, 8, 7] is in the list L. Save to variable name test2
+#set an variable as test2 and searchs info(here as List)
+test2 = [5, 8, 7] in L
+print(test2)
+# Test if 6.6 is in the third element of list L. Save to variable name test3
+#set an variable as test3 and searchs info(here as Float)
+test3 = 6.6 in L[2]
+print(test3)
