@@ -25,7 +25,7 @@ print(things)
 
 
 '''
-
+''''''
 #2. then we ccan try the next test for the map with Triple:
 #the main thing for our Def X(value):  >>> return 3 * (value) 
 def triple(value):
@@ -45,5 +45,17 @@ things3 = tripleStuff(things)
 print(things3)
 #things4 = quadrupleStuff(things)
 #print(things4)
+''''''
 
+#3. another example for map is:
 
+abbrevs = ["usa", "esp", "chn", "jpn", "mex", "can", "rus", "rsa", "jam"]
+
+def f(st):
+    return st.upper()
+
+#abbrevs_upper = map(f, abbrevs)
+#another hand we can write another way like this:
+abbrevs_upper = map(f, abbrevs)
+abbrevs_upper = map(lambda st: st[:2].upper,abbrevs)
+print(abbrevs_upper)
