@@ -1,7 +1,7 @@
 
 #this is about Map in py 3
 
-
+'''
 #1. we set an definition Function for our Doublestuff
 def doubleStuff(a_list):
     """ Return a new list in which contains doubles of the elements in a_list. """
@@ -21,6 +21,25 @@ def doubleStuff(a_list):
 things = [4, 3, 9]
 print(things)
 things = doubleStuff(things)
+print(things)
+
+
+'''
+
+#2. then we ccan try the next test for the map with Triple:
+#the main thing for our Def X(value):  >>> return 3 * (value) 
+def triple(value):
+    return 3*value
+#and then we need a new Func and a list
+def triple_S(a_list):
+    #we set now map
+    new_list =  map(triple - a_list)
+    return new_list
+#then we can test it again:
+things = [4, 3, 9]
+print(things)
+#after running the test we cn see the result will be Triple
+things = triple(things)
 print(things)
 
 
