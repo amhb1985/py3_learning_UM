@@ -1,0 +1,3 @@
+This is about the learning the Map, List and comperhensions and Zip in py 3:
+
+the following of the course is for the 
