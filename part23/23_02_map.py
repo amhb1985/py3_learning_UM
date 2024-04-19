@@ -30,16 +30,20 @@ print(things)
 #the main thing for our Def X(value):  >>> return 3 * (value) 
 def triple(value):
     return 3*value
-#and then we need a new Func and a list
-def triple_S(a_list):
-    #we set now map
-    new_list =  map(triple - a_list)
-    return new_list
-#then we can test it again:
-things = [4, 3, 9]
-print(things)
-#after running the test we cn see the result will be Triple
-things = triple(things)
-print(things)
+
+def tripleStuff(a_list):
+    new_seq = map(triple, a_list)
+    return list(new_seq)
+
+def quadrupleStuff(a_list):
+    new_seq = map(lambda value: 4*value, a_list)
+    return list(new_seq)
+
+
+things = [2, 5, 10]
+things3 = tripleStuff(things)
+print(things3)
+#things4 = quadrupleStuff(things)
+#print(things4)
 
 
