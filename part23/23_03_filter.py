@@ -1,5 +1,5 @@
 #this is about filter
-
+'''
 #1. creat one def
 def keep_evens(nums):
     #2. creat a new empty List
@@ -13,3 +13,15 @@ def keep_evens(nums):
     return new_list
 
 print(keep_evens([3, 4, 6, 7, 0, 1]))
+
+'''
+
+#set 2nd example:
+
+def keep_evens(nums):
+    #set with lambda with filter: 
+    new_seq = filter(lambda num: num % 2 == 0, nums)
+    return list(new_seq)
+
+print(keep_evens([3, 4, 6, 7, 0, 1]))
+
