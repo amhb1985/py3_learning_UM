@@ -15,7 +15,7 @@ def keep_evens(nums):
 print(keep_evens([3, 4, 6, 7, 0, 1]))
 
 '''
-
+'''
 #set 2nd example:
 
 def keep_evens(nums):
@@ -24,4 +24,14 @@ def keep_evens(nums):
     return list(new_seq)
 
 print(keep_evens([3, 4, 6, 7, 0, 1]))
+
+'''
+
+#2. Using filter, filter lst so that it only contains words containing the letter “o”.
+# Assign to variable lst2. Do not hardcode this.
+lst = ["witch", "halloween", "pumpkin", "cat", "candy", "wagon", "moon"]
+# new varible and set this as main:
+#lst2 = filter(<some filtration function>, lst)
+
+lst2 = filter(lambda word: "o" in word, lst)
 
