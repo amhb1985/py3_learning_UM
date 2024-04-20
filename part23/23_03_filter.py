@@ -35,3 +35,4 @@ lst = ["witch", "halloween", "pumpkin", "cat", "candy", "wagon", "moon"]
 
 lst2 = filter(lambda word: "o" in word, lst)
 
+
