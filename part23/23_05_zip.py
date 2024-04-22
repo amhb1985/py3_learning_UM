@@ -59,11 +59,6 @@ def possible(word, blanked, guesses_made):
     #2 set the first the number of guess word with the number of blanked if >> is not !=
     if len(word) != len(blanked):
         return False
-'''   
-    for i in range(len(word)):
-        bc = blanked[i]
-        wc = word[i]
-'''
 #now we can set a zip function:
     for (bc, wc) in zip(blanked, word):
         if not compatible_char(bc , wc, guesses_made):
