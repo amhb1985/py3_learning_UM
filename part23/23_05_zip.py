@@ -51,6 +51,8 @@ def compatible_char(bc, wc, guess_made):
         return False
     elif bc != '_' and bc != wc :
         return False 
+    else:
+        return True
 
 # 1. we define one defintion as possible with 3 element as (word >>> blaned >>> guessmade)
 def possible(word, blanked, guesses_made):
