@@ -45,7 +45,10 @@ for (x1, x2) in L4:
 print("the result of 'ZIP' with Loop & append   " ,type(L4), "is :",L3)
 '''
 # so  naother example for the game hangmann with Anrea is like it:
+
+# 1. we define one defintion as possible with 3 element as (word >>> blaned >>> guessmade)
 def possible(word, blanked, guesses_made):
+    #2 set the first the number of guess word with the number of blanked if >> is not !=
     if len(word) != len(blanked):
         return False
     for i in range(len(word)):
