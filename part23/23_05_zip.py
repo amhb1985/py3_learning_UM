@@ -45,6 +45,12 @@ for (x1, x2) in L4:
 print("the result of 'ZIP' with Loop & append   " ,type(L4), "is :",L3)
 '''
 # so  naother example for the game hangmann with Anrea is like it:
+# we will set another def()
+def compatible_char(bc, wc, guess_made):
+    if bc == '_' and wc in guess_made:
+        return False
+    elif bc bc != '_' and bc != wc :
+        return False 
 
 # 1. we define one defintion as possible with 3 element as (word >>> blaned >>> guessmade)
 def possible(word, blanked, guesses_made):
@@ -54,14 +60,16 @@ def possible(word, blanked, guesses_made):
     for i in range(len(word)):
         bc = blanked[i]
         wc = word[i]
-        if bc == '_' and wc in guesses_made:
-            return False
-        elif bc != '_' and bc != wc:
+        if not compatible_char(bc , wc, guesses_made):
             return False
     return True
 
 print(possible("wonderwall", "_on__r__ll", "otnqurl"))
 print(possible("wonderwall", "_on__r__ll", "wotnqurl"))
+
+
+
+
 
 
 
