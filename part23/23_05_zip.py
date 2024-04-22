@@ -29,7 +29,7 @@ print(L11)
 print(L10)
 '''
 #3. we can sset the zip like the first example
-
+'''
 L1 = [3, 4, 5]
 L2 = [1, 2, 3]
 L3 = []
@@ -43,3 +43,23 @@ for (x1, x2) in L4:
     L3.append(x1+x2)
 
 print("the result of 'ZIP' with Loop & append   " ,type(L4), "is :",L3)
+'''
+# so  naother example for the game hangmann with Anrea is like it:
+def possible(word, blanked, guesses_made):
+    if len(word) != len(blanked):
+        return False
+    for i in range(len(word)):
+        bc = blanked[i]
+        wc = word[i]
+        if bc == '_' and wc in guesses_made:
+            return False
+        elif bc != '_' and bc != wc:
+            return False
+    return True
+
+print(possible("wonderwall", "_on__r__ll", "otnqurl"))
+print(possible("wonderwall", "_on__r__ll", "wotnqurl"))
+
+
+
+
