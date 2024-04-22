@@ -49,7 +49,7 @@ print("the result of 'ZIP' with Loop & append   " ,type(L4), "is :",L3)
 def compatible_char(bc, wc, guess_made):
     if bc == '_' and wc in guess_made:
         return False
-    elif bc bc != '_' and bc != wc :
+    elif bc != '_' and bc != wc :
         return False 
 
 # 1. we define one defintion as possible with 3 element as (word >>> blaned >>> guessmade)
