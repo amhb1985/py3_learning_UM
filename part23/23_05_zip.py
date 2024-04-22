@@ -22,5 +22,8 @@ L5 = [3, 4, 5]
 L6 = [1, 2, 3]
 #we can zip both of them with list(zip())
 L10 = list(zip(L5, L6))
+# in adition we can set a Dict instead of list:
+L11 = dict(zip(L5, L6))
+print(L11)
 print(L10)
 
