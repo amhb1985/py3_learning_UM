@@ -15,6 +15,7 @@ print(L3)
 
 
 '''
+'''
 #2. so now we can use the zip function in Py3:
 
 #1 we have 2 diffrent list:
@@ -26,4 +27,19 @@ L10 = list(zip(L5, L6))
 L11 = dict(zip(L5, L6))
 print(L11)
 print(L10)
+'''
+#3. we can sset the zip like the first example
 
+L1 = [3, 4, 5]
+L2 = [1, 2, 3]
+L3 = []
+L4 = list(zip(L1, L2))
+L5 = dict(zip(L1, L2))
+print("the pure result of 'ZIP' as  " ,type(L4), "is:   ",L4)
+print("the pure result of 'ZIP' as  " ,type(L5), "is:   ",L5)
+
+#Not: we must use Loop from 
+for (x1, x2) in L4:
+    L3.append(x1+x2)
+
+print("the result of 'ZIP' with Loop & append   " ,type(L4), "is :",L3)
