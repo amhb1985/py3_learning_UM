@@ -42,11 +42,19 @@ print(json.dumps(x, indent=2)) # pretty print the results
 '''
 
 #example 2:
+#0. like anither we must set a majol as request.
 import requests
 
 # page = requests.get("https://api.datamuse.com/words?rel_rhy=funny")
+#so 1. we create a valuable as kval_pairs and set it as {Dictioary} here the both of KEY and VALUE are String! 
 kval_pairs = {'rel_rhy': 'funny'}
+#so we can see the type of our valuble 
+print("The type of our valuable is:  ",type(kval_pairs))
+
+#2. we set another valuable to get a request form the Sourcs(as URL , aand set the params as our first valuable)
 page = requests.get("https://api.datamuse.com/words", params=kval_pairs)
+#3. print the first 150 charachter with our 2nd valuacle.
 print(page.text[:150]) # print the first 150 characters
-print(page.url) # print the url that was fetched
+# print the url that was fetched
+print(page.url) 
 
