@@ -10,7 +10,7 @@ def get_rhymes(word):
     #2.1 after that we set a varible as baseURL = "our free source as URL"
     # I wanna change the API source
     #baseurl = "https://api.datamuse.com/words"
-    baseurl = "hhttps://www.dreamfactory.com/?utm_source=capterra&utm_medium=directory&utm_campaign=api_management&utm_channel=capterra"
+    baseurl = "https://vehapi.com/user/dashboard"
 
     #2.2 set up an empty {Dictionary}
     params_diction = {} # Set up an empty dictionary for query parameters
@@ -38,7 +38,7 @@ def get_rhymes(word):
     return resp.json()
  # Return a python object (a list of dictionaries in this case)
 
-#print(get_rhymes("book"))
+print(get_rhymes("Car"))
 #print(get_rhymes("dash"))
 
 
