@@ -40,7 +40,7 @@ print(x[0])
 print("---the whole list, pretty printed---")
 print(json.dumps(x, indent=2)) # pretty print the results
 '''
-
+'''
 #example 2:
 #0. like anither we must set a majol as request.
 import requests
@@ -57,4 +57,17 @@ page = requests.get("https://api.datamuse.com/words", params=kval_pairs)
 print(page.text[:150]) # print the first 150 characters
 # print the url that was fetched
 print(page.url) 
+'''
+
+#example 3: i this example we try to use one url as google.com to search two word for Violons and guitars
+#noice becaus of some security reson we can not allow to our result
+#0 import majule request
+import requests
+
+#1. cereate one valuble as d in {Dictionary} 
+d = {'q': '"violins and guitars"', 'tbm': 'isch'}
+#2. create the 2nd valable as result to get request = request.get( "URL", params=d) 
+results = requests.get("https://google.com/search", params=d)
+#print result.url
+print(results.url)
 
