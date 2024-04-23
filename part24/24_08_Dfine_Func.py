@@ -21,13 +21,13 @@ def get_rhymes(word):
     # 3. set uo now one RESPOND var to  get requst 
             #request.get(URL_var, param s= paramethers_var )
     resp = requests.get(baseurl, params=params_diction)
-    
+
     # return the top three words
     word_ds = resp.json()
     return [d['word'] for d in word_ds]
     return resp.json() # Return a python object (a list of dictionaries in this case)
 
-
-
 print(get_rhymes("funny"))
+print(get_rhymes("dash"))
+
 
