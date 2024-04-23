@@ -28,7 +28,7 @@ def get_rhymes(word):
     # 5. at end we are returning >>
     #5.1 >> [ d['word in 18 lines'] for d in word_ds VAR in 26 line ]
     # if we not set this return we can see whole Dictionary after running the code
-    #return [d['word'] for d in word_ds]
+    return [d['word'] for d in word_ds]
 
     #5.2 >> rep.json()
     return resp.json()
