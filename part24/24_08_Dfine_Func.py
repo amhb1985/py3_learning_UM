@@ -22,10 +22,15 @@ def get_rhymes(word):
             #request.get(URL_var, param s= paramethers_var )
     resp = requests.get(baseurl, params=params_diction)
 
-    # return the top three words
-    word_ds = resp.json()
+    # 4. set up another var to >> using the .json for our responing var
+    word_ds = resp.json()    # return the top three words
+
+    # 5. at end we are returning >>
+    #5.1 >> [ d['word in 18 lines'] for d in word_ds VAR in 26 line ]
     return [d['word'] for d in word_ds]
-    return resp.json() # Return a python object (a list of dictionaries in this case)
+    #5.2 >> rep.json()
+    return resp.json()
+ # Return a python object (a list of dictionaries in this case)
 
 print(get_rhymes("funny"))
 print(get_rhymes("dash"))
