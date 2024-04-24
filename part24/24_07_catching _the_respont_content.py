@@ -1,7 +1,7 @@
 
 
-'''
-#so after running this script unfortionatly it will not working.:
+
+#so after running this script unfortionatly it will not working., because we didint have any module that named as request_with_caching!:
 import requests_with_caching
 
 # it's not found in the permanent cache
@@ -11,4 +11,4 @@ print(res.text[:100])
 res = requests_with_caching.get("https://api.datamuse.com/words?rel_rhy=happy", permanent_cache_file="datamuse_cache.txt")
 # This one is in the permanent cache.
 res = requests_with_caching.get("https://api.datamuse.com/words?rel_rhy=funny", permanent_cache_file="datamuse_cache.txt")
-'''
+
