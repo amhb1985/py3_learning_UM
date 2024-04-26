@@ -2,13 +2,14 @@
 #this is abour user defined Classes
 
 # we set the class for our X , Y :
-class Point()
+# Not: we must after set Class return it with pass!
+class Point():
     pass
 point1 = Point()
 point2 = Point()
 
-
-point1(point1)
-point2(point2)
+# after running the print we can see that we have two diffrent Object in our Class
+print(point1)
+print(point2)
 
 
