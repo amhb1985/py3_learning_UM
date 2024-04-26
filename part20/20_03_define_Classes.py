@@ -6,6 +6,7 @@
 
 
 #so now we change the all of ckasses with define 
+#Not:Methods belongs Classes
 class Point():
     def getX(self):
         return self.x
@@ -28,6 +29,8 @@ print(point1 != point2)
 point1.x = 5 
 point2.x = 10 
 print(point1.getX())
+print(point2.getX())
+
 
 
 
