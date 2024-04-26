@@ -8,4 +8,7 @@ point1 = Point()
 point2 = Point()
 
 
+point1(point1)
+point2(point2)
+
 
