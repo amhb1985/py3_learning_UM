@@ -39,6 +39,7 @@ def get_rhymes(word):
  # Return a python object (a list of dictionaries in this case)
 
 print(get_rhymes("Car"))
+# must test it again
 #print(get_rhymes("dash"))
 
 
