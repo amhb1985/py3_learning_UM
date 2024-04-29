@@ -24,3 +24,11 @@ print(point1.y)
 
 #1. we have the cities names as List
 cityName = ['Detroit','Ann Arbor', 'Pittsburgh','Mars', 'New York']
+#1.2. creat another List for the Population for every City
+population = [680000,116732, 30366, 14023, 850000]
+#1.3. set or creat another List as States
+states = ['MI', 'MI', 'PA', 'PA', 'NY']
+
+#2. ZIP or add all of list in one list
+city_tuple = zip(cityName, population, states)
+
