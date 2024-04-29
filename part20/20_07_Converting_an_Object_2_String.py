@@ -20,8 +20,10 @@ class Point:
     #1. for the solve of it we must >> define a def __str__ (self) and exactly return it
     def __str__(self):
         #2. then we can see the 'Point'
-        return('Point 123')
-        #2. so for the exact meaning we add in Point()>> 2 X and Y >> ({},{}) with format (slef.x and self.y)
+        #return('Point 123')
+        #2. so for the exact meaning we add in 'Point()'>> 2 X and Y >> ({},{}) with .format (slef.x and self.y)
+        return 'Point({},{})'.format(self.x, self.y)
+    
 
 
 #so after the running the test we will see that just one message :<__main__.Point object at 0x7f5549b8bfd0> 
