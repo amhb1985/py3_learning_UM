@@ -23,12 +23,46 @@ print(point1.y)
 #so another example for the adding to class:
 
 #1. we have the cities names as List
-cityName = ['Detroit','Ann Arbor', 'Pittsburgh','Mars', 'New York']
+cityNames = ['Detroit','Ann Arbor', 'Pittsburgh','Mars', 'New York']
 #1.2. creat another List for the Population for every City
-population = [680000,116732, 30366, 14023, 850000]
+populations = [680000,116732, 30366, 14023, 850000]
 #1.3. set or creat another List as States
 states = ['MI', 'MI', 'PA', 'PA', 'NY']
 
 #2. ZIP or add all of list in one list
-city_tuple = zip(cityName, population, states)
+city_tuples = zip(cityNames, populations, states)
+print(city_tuples)
+
+#3.creat a class 
+#3.1 def init method for/with 3 diffrent n p s and define every word
+#3.2  def str method 
+class City:
+    def __init__(self, n, p, s):
+        self.name = n
+        self.poulation = p
+        self.state = s
+    def __str__(self):
+        return '{},{} (pop: {})'.format(self.name, self.state, self.pop)
+
+#4 create one empty List as citiies
+cities =  []
+
+#5. set a loop for city_tup in >> city_tuples
+for city_tup in city_tuples:
+    name, pop, state = city_tup
+    # we can see the all of result now
+    print(name, pop, state)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
