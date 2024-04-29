@@ -29,3 +29,6 @@ class Point:
 #so after the running the test we will see that just one message :<__main__.Point object at 0x7f5549b8bfd0> 
 p = Point(7,6)
 print(p)
+#we can use with another example:
+p2 = Point(100, 101)
+print(p2)
