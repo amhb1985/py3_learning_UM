@@ -43,7 +43,7 @@ class City:
         self.state = s
     def __str__(self):
         return '{},{} (pop: {})'.format(self.name, self.state, self.poulation)
-
+'''
 #4 create one empty List as citiies
 cities =  []
 
@@ -54,21 +54,12 @@ for city_tup in city_tuples:
     #and then we can see it as class but we must change the self.pop to poulation
     cities.append(city)
     print(cities)
-    
 
     # we can see the all of result now
     #print(name, pop, state)
-
-
-
-
-
-
-
-
-
-
-
-
+'''
+#6 but now we can simple the levels 4 and 5 of level to below:
+cities = [City(n,p,s) for (n,p,s) in city_tuples]
+print(cities) # we cal see the same result like further levels
 
 
