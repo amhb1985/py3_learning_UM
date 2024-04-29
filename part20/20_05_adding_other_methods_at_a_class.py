@@ -42,7 +42,7 @@ class City:
         self.poulation = p
         self.state = s
     def __str__(self):
-        return '{},{} (pop: {})'.format(self.name, self.state, self.pop)
+        return '{},{} (pop: {})'.format(self.name, self.state, self.poulation)
 
 #4 create one empty List as citiies
 cities =  []
@@ -50,8 +50,12 @@ cities =  []
 #5. set a loop for city_tup in >> city_tuples
 for city_tup in city_tuples:
     name, pop, state = city_tup
+    city = City(name, pop, state) # instace of City class
+    #and then we can see it as class but we must change the self.pop to poulation
+    print(city)
+
     # we can see the all of result now
-    print(name, pop, state)
+    #print(name, pop, state)
 
 
 
