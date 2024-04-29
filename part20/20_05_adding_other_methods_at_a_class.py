@@ -13,5 +13,7 @@ class Point():
 point1 = Point(10, 100)
 
 #for printing both of our adding x and y we can use point1.x or .y
+#it will comming bach in our point1 
 print(point1.x)
 print(point1.y)
+
