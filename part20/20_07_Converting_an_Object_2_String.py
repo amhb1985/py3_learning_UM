@@ -17,6 +17,6 @@ class Point:
     def distanceFromOrigin(self):
         return ((self.x ** 2) + (self.y ** 2)) ** 0.5
 
-
+#so after the running the test we will see that just one message :<__main__.Point object at 0x7f5549b8bfd0> 
 p = Point(7,6)
 print(p)
