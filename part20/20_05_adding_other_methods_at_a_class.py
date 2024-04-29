@@ -1,5 +1,6 @@
 #adding other Methods in a Class
 
+'''
 class Point():
     def __init__(self, x, y):
         self.x = x
@@ -17,3 +18,9 @@ point1 = Point(10, 100)
 print(point1.x)
 print(point1.y)
 
+'''
+
+#so another example for the adding to class:
+
+#1. we have the cities names as List
+cityName = ['Detroit','Ann Arbor', 'Pittsburgh','Mars', 'New York']
