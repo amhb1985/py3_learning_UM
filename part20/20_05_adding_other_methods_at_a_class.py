@@ -52,7 +52,9 @@ for city_tup in city_tuples:
     name, pop, state = city_tup
     city = City(name, pop, state) # instace of City class
     #and then we can see it as class but we must change the self.pop to poulation
-    print(city)
+    cities.append(city)
+    print(cities)
+    
 
     # we can see the all of result now
     #print(name, pop, state)
