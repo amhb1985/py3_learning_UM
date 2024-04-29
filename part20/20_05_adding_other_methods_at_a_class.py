@@ -59,7 +59,9 @@ for city_tup in city_tuples:
     #print(name, pop, state)
 '''
 #6 but now we can simple the levels 4 and 5 of level to below:
-cities = [City(n,p,s) for (n,p,s) in city_tuples]
+#cities = [City(n,p,s) for (n,p,s) in city_tuples]
+#6.00 the another things that we'll use it that instead of (n,p,s) wer can use (*t). and (t). like this:
+cities = [City(*t) for (t) in city_tuples]
 print(cities) # we cal see the same result like further levels
 
 
