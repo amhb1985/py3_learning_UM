@@ -17,13 +17,14 @@ class Point:
 
     def getY(self):
         return self.y
-    
+    #3. then we can set our formular or in another hand define it, Like these:
     def distanceFromOrigin(self):
         return ((self.x ** 2) + (self.y ** 2)) ** 0.5
-
+    
+    #4. we must notice that we must define string(self)
     def __str__(self):
         return "x = {}, y = {}".format(self.x, self.y)
-
+    #5. we can define another formula for hafway:
     def halfway(self, target):
         mx = (self.x + target.x)/2
         my = (self.y + target.y)/2
