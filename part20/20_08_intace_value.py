@@ -7,16 +7,17 @@ class Point:
 
     #1. in the our class first we r defining the init (self, init for X AND Y)
     def __init__(self, initX, initY):
-
+        #1.1 we set the delf file with our init()
         self.x = initX
         self.y = initY
-
+    
+    #2. now we are defining the getX(self) and getY(self) NATURALLY with the return commend:
     def getX(self):
         return self.x
 
     def getY(self):
         return self.y
-
+    
     def distanceFromOrigin(self):
         return ((self.x ** 2) + (self.y ** 2)) ** 0.5
 
