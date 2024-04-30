@@ -29,13 +29,15 @@ class Point:
         mx = (self.x + target.x)/2
         my = (self.y + target.y)/2
         return Point(mx, my)
-
+#6. we can set now two list varibles for our X,Y as p, q or z
 p = Point(3,4)
 q = Point(5,12)
+#7. we can set another formula for our p and q
 mid = p.halfway(q)
 # note that you would have exactly the same result if you instead wrote
 # mid = q.halfway(p)
 # because they are both Point objects, and the middle is the same no matter what
+
 
 print(mid)
 print(mid.getX())
