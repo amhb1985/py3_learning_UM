@@ -36,7 +36,8 @@ def get_rhymes(word):
  # Return a python object (a list of dictionaries in this case)
 
 print(get_rhymes("funny"))
-print(get_rhymes("dash"))
+#again test it for another ones:
+print(get_rhymes("asha"))
 
 
 
