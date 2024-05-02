@@ -8,6 +8,7 @@ import requests
 #2 we define  one Fuction to our word:
 def get_rhymes(word):
     #2.1 after that we set a varible as baseURL = "our free source as URL"
+    # may be we can search again for some sources for free use
     baseurl = "https://api.datamuse.com/words"
     #2.2 set up an empty {Dictionary}
     params_diction = {} # Set up an empty dictionary for query parameters
@@ -36,5 +37,7 @@ def get_rhymes(word):
 
 print(get_rhymes("funny"))
 print(get_rhymes("dash"))
+
+
 
 
