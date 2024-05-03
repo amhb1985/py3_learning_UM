@@ -17,6 +17,7 @@ class Point:
         # 2.1 so first we need 2 lists >>one empty list for rows >>two for size
         rows = []
         size = max(int(self.x), int(self.y)) + 2
+        # 2.2 then we create a LOOP for the range with the 2nd list >> size
         for j in range(size-1) :
             if (j+1) == int(self.y):
                 special_row = str((j+1) % 10) + (" "*(int(self.x) -1)) + self.printed_rep
