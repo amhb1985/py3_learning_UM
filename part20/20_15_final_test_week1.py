@@ -41,15 +41,18 @@ print(val1.increase())
 #and an integer that represents the amount of money in the account. The constructor should initialize two instance variables from those inputs: name and amt. Add a string method so that when you print an instance of BankAccount, you see "Your account, [name goes here], has [start_amt goes here] dollars." 
 #Create an instance of this class with "Bob" as the name and 100 as the amount. Save this to the variable t1.
 
-
+# 0. first we need a claa as Bankacount
 class BankAccount:
+    #1. define init function (self, name, amt)
     def __init__(self,name,amt):
         self.name=name
         self.amt=amt
         
+    #2. define a string function
     def __str__(self):
         return "Your account, {}, has {} dollars.".format(self.name,self.amt)
-    
+
+#3. set 2 person info as name and amt infos   
 t1=BankAccount("Bob",100)
 t2=BankAccount("Joe",2000)
 
