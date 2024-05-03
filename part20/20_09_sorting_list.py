@@ -24,6 +24,7 @@ L = [Fruit("Cherry", 10),
      Fruit("Apple", 5),
      Fruit("Blueberry", 20)
 ]
-    #4. add the end we sort it:
+    #4. we sort it:
 for f in sorted(L, key=lambda x: x.price):
     print(f.name)
+    print(f.price)
