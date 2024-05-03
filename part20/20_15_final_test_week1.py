@@ -43,18 +43,19 @@ print(val1.increase())
 
 # 0. first we need a claa as Bankacount
 class BankAccount:
-    #1. define init function (self, name, amt)
-    def __init__(self,name,amt):
+    #1. define init function (self, name, amt, acounts_cost)
+    def __init__(self,name,amt, acountscost):
         self.name=name
         self.amt=amt
-        
+        self.acountscost = acountscost
     #2. define a string function
+    #2.1 as you can see we can change the text with self
     def __str__(self):
-        return "Your account, {}, has {} dollars.".format(self.name,self.amt)
+        return "Hello {}. Your account as {}, has: {}$ .your acount cost is now: {}$. ".format(self.name, self.name,self.amt, self.acountscost)
 
 #3. set 2 person info as name and amt infos   
-t1=BankAccount("Bob",100)
-t2=BankAccount("Joe",2000)
+t1=BankAccount("Bob",100, 1)
+t2=BankAccount("Joe",2000, 20)
 
 print(t1)
 print(t2)
