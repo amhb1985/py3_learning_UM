@@ -19,12 +19,22 @@ class Fruit():
     def __init__(self, name, price):
         self.name = name
         self.price = price
+
+    #2.2 now we can define another init for sorting the result
+    def sort_priority(self):
+        return self.price
+
     #3. we set one List L=[] and then we add Fruits in it:
 L = [Fruit("Cherry", 10),
      Fruit("Apple", 5),
      Fruit("Blueberry", 20)
 ]
     #4. we sort it:
-for f in sorted(L, key=lambda x: x.price):
+#for f in sorted(L, key=lambda x: x.price):
+    #print(f.name)
+    #print(f.price)
+
+print("---- one more way to do the same thing-----")
+for f in sorted(L, key=lambda x: x.sort_priority()):
     print(f.name)
-    print(f.price)
+
