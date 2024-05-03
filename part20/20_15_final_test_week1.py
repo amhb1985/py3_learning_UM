@@ -51,8 +51,8 @@ class BankAccount:
         return "Your account, {}, has {} dollars.".format(self.name,self.amt)
     
 t1=BankAccount("Bob",100)
-#t2=BankAccount("Bob",2000)
+t2=BankAccount("Joe",2000)
 
 print(t1)
-#print(t1)
+print(t2)
 
