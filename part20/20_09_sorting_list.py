@@ -13,11 +13,17 @@ print(sorted(L, key= lambda x: len(x)))
 #example 2 :
 # we have now another example for sorting the list with using the price of them:
 
+#1. we have one class as Fruit():
 class Fruit():
+    #2. then we define now with __init__ (self, name>> forFruits,  price >> for Fruit):
     def __init__(self, name, price):
         self.name = name
         self.price = price
-
-L = [Fruit("Cherry", 10), Fruit("Apple", 5), Fruit("Blueberry", 20)]
+    #3. we set one List L=[] and then we add Fruits in it:
+L = [Fruit("Cherry", 10),
+     Fruit("Apple", 5),
+     Fruit("Blueberry", 20)
+]
+    #4. add the end we sort it:
 for f in sorted(L, key=lambda x: x.price):
     print(f.name)
