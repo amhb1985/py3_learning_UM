@@ -1,10 +1,12 @@
 # this chapter is about the class varible and Instace varible:
 
-
+#0: we set a class for our points:
 class Point:
     """ Point class for representing and manipulating x,y coordinates. """
-
+    # we can set * for our rep 
     printed_rep = "*"
+
+    #1. we define two Functions for our ponits:
 
     def __init__(self, initX, initY):
 
@@ -28,7 +30,7 @@ class Point:
 
         return "\n".join(rows)
 
-
+# so we test now 2 points lists:
 p1 = Point(2, 3)
 p2 = Point(3, 12)
 print(p1.graph())
