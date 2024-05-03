@@ -7,13 +7,14 @@ class Point:
     printed_rep = "*"
 
     #1. we define two Functions for our ponits:
-
+    #1.1 we define the first init for our points as x and y
     def __init__(self, initX, initY):
-
         self.x = initX
         self.y = initY
-
+    #2.  we define another Function for as graf and 
+    # inside of graf we set sone another commend:
     def graph(self):
+        # 2.1 so first we need 2 lists >>one empty list for rows >>two for size
         rows = []
         size = max(int(self.x), int(self.y)) + 2
         for j in range(size-1) :
