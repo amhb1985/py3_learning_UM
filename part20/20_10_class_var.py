@@ -3,8 +3,8 @@
 #0: we set a class for our points:
 class Point:
     """ Point class for representing and manipulating x,y coordinates. """
-    # we can set * for our rep 
-    printed_rep = "*"
+    # we can set * for our rep  or we can change it to x or <<
+    printed_rep = " << "
 
     #1. we define two Functions for our ponits:
     #1.1 we define the first init for our points as x and y
@@ -33,8 +33,8 @@ class Point:
         return "\n".join(rows)
 
 # so we test now 2 points lists:
-p1 = Point(2, 3)
+# and then we'll chang it:
+p1 = Point(2, 30)
 p2 = Point(3, 12)
 print(p1.graph())
-print()
 print(p2.graph())
