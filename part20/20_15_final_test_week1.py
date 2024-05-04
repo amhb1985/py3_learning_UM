@@ -54,9 +54,12 @@ class BankAccount:
         return "Hello {}. Your account as {}, has: {}$ .your acount cost is now: {}$. ".format(self.name, self.name,self.amt, self.acountscost)
 
 #3. set 2 person info as name and amt infos   
-t1=BankAccount("Bob",100, 1)
-t2=BankAccount("Joe",2000, 20)
+#changing now to one input form
 
-print(t1)
-print(t2)
+t0=BankAccount(input(str('whats your name: ')),100, 1)
+t1=BankAccount("Bob",100, 1)
+#t2=BankAccount("Joe",2000, 20)
+
+print(t0)
+#print(t2)
 
