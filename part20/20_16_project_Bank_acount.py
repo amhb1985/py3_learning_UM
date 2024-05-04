@@ -18,7 +18,10 @@ class BankAccount:
 #3. set 2 person info as name and amt infos   
 #changing now to one input form
 
-t0=BankAccount(input(str('whats your name: ')),input(str('whats acount name: ')) ,100, 1)
+t0=BankAccount(input(str('whats your name: '))
+                ,input(str('whats acount name: '))
+                  ,input(int('how much he/she pay: ')),
+                          1)
 #t1=BankAccount("Bob",100, 1)
 #t2=BankAccount("Joe",2000, 20)
 
