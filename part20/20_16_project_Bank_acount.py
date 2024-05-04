@@ -2,15 +2,15 @@
 # this one is base on the final Project of first Week exam in Py3 learining cours by UCLA Davis 
 #under coursera website. 
 
-# 0. first we need a claa as Bankacount
+# 0. first we need a class as Bankacount
 class BankAccount:
     #1. define init function (self, name, amt, acounts_cost)
     def __init__(self,BankEmployee, AcountName, amt, percent, netto):
         self.employee = BankEmployee
         self.name = AcountName
         self.amt = amt
-        self.percent= int(percent) * 0.02
-        netto = int(amt)-int(percent)
+        self.percent=  int(amt) / int(percent)
+        netto = int(amt)-int(self.percent)
         self.netto = int(netto) 
 
         #self.percent= int(amt) * 0.01
@@ -25,9 +25,9 @@ class BankAccount:
 t0=BankAccount(input(str('whats your name: '))
                 ,input(str('whats acount name: '))
                   ,input(str('how much is payment: '))
-                    ,input(str('how much is commition: '))
+                    ,input(str('please add Commition % : '))
                      ,'netto')
-
+input(str('do you want to save it?'))
 
 #t1=BankAccount("Bob",100, 1)
 #t2=BankAccount("Joe",2000, 20)
