@@ -9,7 +9,7 @@ class BankAccount:
         self.employee = BankEmployee
         self.name = AcountName
         self.amt = amt
-        self.percent=  int(amt) / int(percent)
+        self.percent= int(percent)*int(amt)/ 100
         netto = int(amt)-int(self.percent)
         self.netto = int(netto) 
 
