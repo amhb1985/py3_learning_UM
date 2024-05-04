@@ -10,10 +10,12 @@ class BankAccount:
         self.name = AcountName
         self.amt = amt
         self.acountscost = acountscost
+    def __init__(self, percent):
+        self.percent= int(percent) * 0.1
     #2. define a string function
     #2.1 as you can see we can change the text with self
     def __str__(self):
-        return "Hello {}.the account as {}, has: {}$ .The Bank-Comission cost is now: {}$. ".format(self.employee, self.name,self.amt, self.acountscost)
+        return "so.. dear {}.The account of {},now has: {}$ .The Bank-Comission cost is now: {}$. ".format(self.employee, self.name,self.amt, self.acountscost)
 
 #3. set 2 person info as name and amt infos   
 #changing now to one input form
@@ -22,6 +24,8 @@ t0=BankAccount(input(str('whats your name: '))
                 ,input(str('whats acount name: '))
                   ,input(str('how much is payment: '))
                     ,input(str('which class of Bank_commition: ')))
+
+
 #t1=BankAccount("Bob",100, 1)
 #t2=BankAccount("Joe",2000, 20)
 
