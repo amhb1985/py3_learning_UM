@@ -20,8 +20,8 @@ class BankAccount:
 
 t0=BankAccount(input(str('whats your name: '))
                 ,input(str('whats acount name: '))
-                  ,input(str('how much is payment: ')),
-                          1)
+                  ,input(str('how much is payment: '))
+                    ,input(str('which class of Bank_commition: ')))
 #t1=BankAccount("Bob",100, 1)
 #t2=BankAccount("Joe",2000, 20)
 
