@@ -5,20 +5,21 @@
 # 0. first we need a claa as Bankacount
 class BankAccount:
     #1. define init function (self, name, amt, acounts_cost)
-    def __init__(self,name,amt, acountscost):
-        self.name=name
-        self.amt=amt
+    def __init__(self,BankEmployee, AcountName, amt, acountscost):
+        self.employee = BankEmployee
+        self.name = AcountName
+        self.amt = amt
         self.acountscost = acountscost
     #2. define a string function
     #2.1 as you can see we can change the text with self
     def __str__(self):
-        return "Hello {}. Your account as {}, has: {}$ .your acount cost is now: {}$. ".format(self.name, self.name,self.amt, self.acountscost)
+        return "Hello {}.the account as {}, has: {}$ .your acount cost is now: {}$. ".format(self.employee, self.name,self.amt, self.acountscost)
 
 #3. set 2 person info as name and amt infos   
 #changing now to one input form
 
-t0=BankAccount(input(str('whats your name: ')),100, 1)
-t1=BankAccount("Bob",100, 1)
+t0=BankAccount(input(str('whats your name: ')),input(str('whats acount name: ')) ,100, 1)
+#t1=BankAccount("Bob",100, 1)
 #t2=BankAccount("Joe",2000, 20)
 
 print(t0)
