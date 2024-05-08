@@ -33,8 +33,9 @@ L = [Fruit("Cherry", 10),
 #for f in sorted(L, key=lambda x: x.price):
     #print(f.name)
     #print(f.price)
+vegatable = ("Tomato" , 15)
 
 print("---- one more way to do the same thing-----")
 for f in sorted(L, key=lambda x: x.sort_priority()):
     print(f.name)
-
+    print(f.price)

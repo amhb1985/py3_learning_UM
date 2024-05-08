@@ -1,4 +1,3 @@
-
 #this lection about the intace as value in class
 
 #0. we another ones we must create one class in our script:
