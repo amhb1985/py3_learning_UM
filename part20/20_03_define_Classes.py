@@ -20,10 +20,10 @@ point2 = Point()
 
 # now we can check the result of class
 # we can see that point1 is NOT equal pont2 !
-'''
+#test and review🧐
 print(point1 == point2)
 print(point1 != point2)
-'''
+
 #so we can set a formula for our points: with " .x = "
 #then we can change the point.x to our define as get.x and run the all of code and we'll see the same result as 5 
 point1.x = 5 
