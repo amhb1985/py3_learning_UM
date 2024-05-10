@@ -22,10 +22,16 @@ class Person:
 #so at the end we test our code we some name
 # we must set one name for our varibleand use Person() as our main class 
 # and then add one String AND   then the year of birth
-alice = Person('Alice Smithe', 1989)
-print(alice)
 
-Joe = Person('Joe Becker', 1977)
-print(Joe)
+#alice = Person('Alice Smithe', 1989)
+#print(alice)
+#Joe = Person('Joe Becker', 1977)
+#print(Joe)
+# so we will chnage the all of code with the input commend:
+#so it isnt currect and we must change it again
+'''
+t0=Person(input(str('whats your name: '))
+                ,input(int())
+print(t0)
 
-
+'''
