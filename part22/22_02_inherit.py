@@ -1,14 +1,14 @@
+
+#after disconnected i am trying with VScode.
+
 from random import randrange
 
 # Here's the original Pet class
-# 0. first we set and creat one class as Pet
 class Pet():
-    #1. we need to add the count of our Pet  as Cats class for every Races
     boredom_decrement = 4
     hunger_decrement = 6
     boredom_threshold = 5
     hunger_threshold = 10
-    #2. the next we set for our Cats one sounds Dic
     sounds = ['Mrrp']
     def __init__(self, name = "Kitty"):
         self.name = name
@@ -75,5 +75,6 @@ print(cat1)
 print(cat1.chasing_rats())
 
 #print(p1.chasing_rats()) # This line will give us an error. The Pet class doesn't have this method!
+
 
 
