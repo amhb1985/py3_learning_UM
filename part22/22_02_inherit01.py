@@ -16,5 +16,8 @@ class Person:
     #1.3 like our tset for the Bank acount we mus at end define
     # a String for Show our result:
     def __str__(self):
-        #then we need with {} set/order the text with our datas
+        #then we need with return and {} set/order the text with our datas
+        return '{}({})'.format(self.name, self.getAge() )
+    
+
 
