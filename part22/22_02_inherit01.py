@@ -19,5 +19,11 @@ class Person:
         #then we need with return and {} set/order the text with our datas
         return '{}({})'.format(self.name, self.getAge() )
     
+#so at the end we test our code we some name
+# we must set one name for our varibleand use Person() as our main class 
+# and then add one String AND   then the year of birth
+alice = Person('Alice Smithe', 1989)
+print(alice)
+
 
 
