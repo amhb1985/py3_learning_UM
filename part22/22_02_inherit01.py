@@ -17,7 +17,7 @@ class Person:
     # a String for Show our result:
     def __str__(self):
         #then we need with return and {} set/order the text with our datas
-        return '{}({})'.format(self.name, self.getAge() )
+        return 'Hello dear {} your age is: ({}).'.format(self.name, self.getAge() )
     
 #so at the end we test our code we some name
 # we must set one name for our varibleand use Person() as our main class 
@@ -25,5 +25,7 @@ class Person:
 alice = Person('Alice Smithe', 1989)
 print(alice)
 
+Joe = Person('Joe Becker', 1977)
+print(Joe)
 
 
