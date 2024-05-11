@@ -34,7 +34,7 @@ class Library:
         #4.2 we define add books
         def addBook(self, book):
             self.books.append(book)
-        def getNumberBooks(self):
+        def getNumBooks(self):
             return len(self.books)
 
 
@@ -45,5 +45,13 @@ print(myBook.numPages)
 my_e_book = eBook('the Odysse', 'Homer', 3)
 print(my_e_book)
 print(my_e_book.size)
+
+
+# so now we test our Library class:
+aadl = Library()
+aadl.addBook(my_e_book)
+aadl.addBook(myBook)
+print(aadl.getNumBooks())
+
 
 
