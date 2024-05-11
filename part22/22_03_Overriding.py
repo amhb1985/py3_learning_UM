@@ -31,6 +31,8 @@ class eBook(Book):
 myBook = PaperBook('the Odysse', 'Homer', 500)
 print(myBook)
 print(myBook.numPages)
-
+my_e_book = eBook('the Odysse', 'Homer', 3)
+print(my_e_book)
+print(my_e_book.size)
 
 
