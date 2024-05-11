@@ -34,7 +34,8 @@ print(t0)
 
 '''
 # so now we will copy the class to make another class as  Student.
-class Student:
+#so every Student is a person:
+class Student(Person):
     #1.1 then we define inint (naturally with self, name, and the year of birth)
     def __init__(self, name, year_born ):
         self.name = name
