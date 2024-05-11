@@ -42,7 +42,11 @@ class Student:
         self.name = name
         self.year_born = year_born
         #we set another for self.knowleg
-        self.knowleg = 0
+        self.knowledge = 0
+
+    #so now we define another Methode for the Study:
+    def study(self):
+        self.knowledge =+ 1
 
     #1.2 so we need define the getAge and erduce this from Current Year
     def getAge(self):
