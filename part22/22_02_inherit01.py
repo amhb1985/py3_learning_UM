@@ -23,8 +23,6 @@ class Person:
 # we must set one name for our varibleand use Person() as our main class 
 # and then add one String AND   then the year of birth
 
-alice = Person('Alice Smithe', 1989)
-print(alice)
 #Joe = Person('Joe Becker', 1977)
 #print(Joe)
 # so we will chnage the all of code with the input commend:
@@ -56,3 +54,11 @@ class Student:
     def __str__(self):
         #then we need with return and {} set/order the text with our datas
         return 'Hello dear {} your age is: ({}).'.format(self.name, self.getAge() )
+
+alice = Student('Alice Smithe', 1989)
+#print(alice)
+alice.study()
+print(alice.knowledge)
+
+
+
