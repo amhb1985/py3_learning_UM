@@ -18,7 +18,14 @@ class PaperBook(Book):
         Book.__init__(self, title, author)
         # we set self for Number of pages
         self.numPages = numPages
-
+#3. like another sub class for Paperpage we will create another for the e-book:
+class eBook(Book):
+    # we define  the methode init 
+    # 2.2 we must our main Class (here Book) join with init >>> IT IS NOT SELF !!!
+    def __init__(self, author, size):
+        Book.__init__(self, title, author)
+        # we set self for size of Books
+        self.size = size
 
 #test the book:
 #myBook = Book('the Odysse', 'Homer')
