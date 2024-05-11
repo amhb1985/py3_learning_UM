@@ -28,8 +28,9 @@ class eBook(Book):
         self.size = size
 
 #test the book:
-myBook = eBook('the Odysse', 'Homer', 2)
+myBook = PaperBook('the Odysse', 'Homer', 500)
 print(myBook)
+print(myBook.numPages)
 
 
 
