@@ -35,12 +35,14 @@ t0=Person(input(str('whats your name: '))
 print(t0)
 
 '''
-# so now we will copy the class to make another class
-class Person:
+# so now we will copy the class to make another class as  Student.
+class Student:
     #1.1 then we define inint (naturally with self, name, and the year of birth)
-    def __init__(self, name, year_born):
+    def __init__(self, name, year_born ):
         self.name = name
         self.year_born = year_born
+        #we set another for self.knowleg
+        self.knowleg = 0
 
     #1.2 so we need define the getAge and erduce this from Current Year
     def getAge(self):
