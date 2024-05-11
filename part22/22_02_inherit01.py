@@ -48,8 +48,10 @@ class Student(Person):
         self.knowledge =+ 1
 
     #1.2 so we need define the getAge and erduce this from Current Year
-    def getAge(self):
+    # so in this case we must remove get age from the student class
+   ''' def getAge(self):
         return current_year - self.year_born
+        '''
     #1.3 like our tset for the Bank acount we mus at end define
     # a String for Show our result:
     def __str__(self):
