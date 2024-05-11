@@ -23,8 +23,8 @@ class Person:
 # we must set one name for our varibleand use Person() as our main class 
 # and then add one String AND   then the year of birth
 
-#alice = Person('Alice Smithe', 1989)
-#print(alice)
+alice = Person('Alice Smithe', 1989)
+print(alice)
 #Joe = Person('Joe Becker', 1977)
 #print(Joe)
 # so we will chnage the all of code with the input commend:
