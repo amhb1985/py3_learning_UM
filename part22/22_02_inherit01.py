@@ -35,3 +35,18 @@ t0=Person(input(str('whats your name: '))
 print(t0)
 
 '''
+# so now we will copy the class to make another class
+class Person:
+    #1.1 then we define inint (naturally with self, name, and the year of birth)
+    def __init__(self, name, year_born):
+        self.name = name
+        self.year_born = year_born
+
+    #1.2 so we need define the getAge and erduce this from Current Year
+    def getAge(self):
+        return current_year - self.year_born
+    #1.3 like our tset for the Bank acount we mus at end define
+    # a String for Show our result:
+    def __str__(self):
+        #then we need with return and {} set/order the text with our datas
+        return 'Hello dear {} your age is: ({}).'.format(self.name, self.getAge() )
