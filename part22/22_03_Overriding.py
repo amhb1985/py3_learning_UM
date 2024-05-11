@@ -26,6 +26,17 @@ class eBook(Book):
         Book.__init__(self, title, author)
         # we set self for size of Books
         self.size = size
+# 4. so now we set another class as upper class like Library:
+class Library:
+    def __init__(self):
+        #4.1 we must define the empty List
+        self.books = []
+        #4.2 we define add books
+        def addBook(self, book):
+            self.books.append(book)
+        def getNumberBooks(self):
+            return len(self.books)
+
 
 #test the book:
 myBook = PaperBook('the Odysse', 'Homer', 500)
