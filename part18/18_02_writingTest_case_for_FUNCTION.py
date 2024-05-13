@@ -34,6 +34,10 @@ update_counts("aaab", counts)
 test.testEqual(counts['a'], 6)
 test.testEqual(counts['b'], 3)
 
+counts = {'a':3, 'b':2}
+update_counts("", counts)
+test.testEqual(counts['b'], 3)
+
 
 
 
