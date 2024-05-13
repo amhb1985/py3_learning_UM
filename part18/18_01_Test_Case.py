@@ -18,3 +18,5 @@ test.testEqual(square(-4),16)
 test.testEqual(square(1.5),2.25)
 test.testEqual(square(0),0)
 test.testEqual(square(2),4)
+
+#so we cann not see the result bcos of test Equal
