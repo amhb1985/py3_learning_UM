@@ -2,13 +2,12 @@
 
 #for example define a Function for squre of X:
 def square(x):
-    return x * x
+    return x + x
 
 #01 first we must import it
 import test
 #then we print our result:
 print('testing squre function')
-
 #03. we must testning  testEquel >> ourFunction (the X), and the Answere
 #>> when the answere will true , then comming TRUE as 'Pass'!! in another hand comming the 'TEST Failed'
 #>> so for the first Try unfortionatly we can not un it, may bee we must change the testEqual to new Version
@@ -17,4 +16,5 @@ test.testEqual(square(10),100)
 test.testEqual(square(3),9)
 test.testEqual(square(-4),16)
 test.testEqual(square(1.5),2.25)
-test.testEqual((0),0)
+test.testEqual(square(0),0)
+test.testEqual(square(2),4)
