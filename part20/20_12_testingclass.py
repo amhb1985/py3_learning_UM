@@ -22,9 +22,11 @@ assert p.x == 3
 
 #testing the distance method
 p = Point(3, 4)
+
 assert p.distanceFromOrigin() == 5.0
 
 #testing the move method
+
 p = Point(3, 4)
 p.move(-2, 3)
 assert p.x == 1
