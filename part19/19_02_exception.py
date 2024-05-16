@@ -1,6 +1,6 @@
 
 #so in this py code wewill see the Index Error after running the code:
-#
+# so now if we crrect or Item with add 3'd item in our List we can see a b and without somthing Wrong!
 items = ['a', 'b']
 #print("this is not going to be printed")
 
