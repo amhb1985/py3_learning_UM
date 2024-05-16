@@ -7,12 +7,17 @@ items = ['a', 'b']
 #so now we try to show the last print if the code it will not true:
 #actually this is a Boolan inside of our code
 #01. use try: and then except: third = False
+
+#so now we can show or set where that we can problem: with 3 diffrent Print()
 try:
+    print("a")
     third = items[2]
+    print("b")
 
 except:
+    print("Something went Wrong!")
     third = False
-print(" i wanna this to run")
+print("I wanna this to run")
 
 #after running the code we can see as below:
 #IndexError: list index out of range
