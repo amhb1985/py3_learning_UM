@@ -2,8 +2,7 @@
 #so in this py code wewill see the Index Error after running the code:
 #
 items = ['a', 'b']
-print("this is not going to be reached")
-
+print("this is not going to be printed")
 third = items[2]
 print("this is not going to be reached")
 
