@@ -1,7 +1,7 @@
 
 #so in this py code wewill see the Index Error after running the code:
 # so now if we crrect or Item with add 3'd item in our List we can see a b and without somthing Wrong!
-items = ['a', 'b']
+items = ['a', 'b','c']
 #print("this is not going to be printed")
 
 #so now we try to show the last print if the code it will not true:
