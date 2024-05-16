@@ -1,0 +1,6 @@
+this is about exception Handling fow of control:
+
+What is an exception?
+An exception is a signal that a condition has occurred that can’t be easily handled using the normal 
+flow-of-control of a Python program. Exceptions are often defined as being “errors” 
+but this is not always the case. All errors in Python are dealt with using exceptions, but not all exceptions are errors.
