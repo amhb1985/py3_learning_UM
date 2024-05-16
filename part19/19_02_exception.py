@@ -5,6 +5,7 @@ items = ['a', 'b']
 #print("this is not going to be printed")
 
 #so now we try to show the last print if the code it will not true:
+#actually this is a Boolan inside of our code
 #01. use try: and then except: third = False
 try:
     third = items[2]
