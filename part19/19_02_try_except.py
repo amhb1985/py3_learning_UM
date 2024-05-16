@@ -7,7 +7,7 @@ items = ['a', 'b']
 try:
     #we set 3 diffrent mistake in our code:
     #myvar= a
-    #x = 10/0
+    x = 10/0
     third = items[2]
     
 except ZeroDivisionError:
