@@ -25,5 +25,6 @@ print("I wanna this to run")
 
 #as we can see we have three Error when we have mistake:
 #1. Syntadic >> like a () or []
-#2.Runtime >>. like a item out of our List
+#2.Runtime >>. like a item out of our List 
+# for this one we can use the try/except 
 #3.Semantic >>
