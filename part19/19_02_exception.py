@@ -2,9 +2,16 @@
 #so in this py code wewill see the Index Error after running the code:
 #
 items = ['a', 'b']
-print("this is not going to be printed")
-third = items[2]
-print("this is not going to be reached")
+#print("this is not going to be printed")
+
+#so now we try to show the last print if the code it will not true:
+#01. use try: and then except: third = False
+try:
+    third = items[2]
+
+except:
+    third = False
+print(" i wanna this to run")
 
 #after running the code we can see as below:
 #IndexError: list index out of range
