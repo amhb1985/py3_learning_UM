@@ -1,5 +1,3 @@
-
-
 #this is about : Defining a function to make repeated invocations
 # import statements for necessary Python modules
 #0 like another we must set first the Majule : request
