@@ -5,6 +5,7 @@
 #0 like another we must set first the Majule : request
 import requests
 
+
 #2 we define  one Fuction to our word:
 def get_rhymes(word):
     #2.1 after that we set a varible as baseURL = "our free source as URL"

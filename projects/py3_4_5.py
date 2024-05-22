@@ -1,4 +1,7 @@
 
+
+#this is about anot
+her project in week 4
 import random
 
 rand_number = random.randint(1, 10)
