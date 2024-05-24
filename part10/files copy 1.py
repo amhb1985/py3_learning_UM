@@ -12,3 +12,5 @@
 file_test_read = open("workspaces/py3_learning_UM/part10/mydata.txt","r")
 print(file_test_read)
 file_test_read.close()
+
+#test
