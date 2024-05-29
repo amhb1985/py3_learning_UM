@@ -1,0 +1,102 @@
+
+
+# this is for the jupiter_lab and befor the test must add the picture and with pfad
+import PIL
+from PIL import Image
+from PIL import ImageFont
+from PIL import ImageDraw
+import os
+
+# Pfad zum Bild
+image_path = "/Users/amir/Desktop/my_img.JPG"
+
+# Überprüfen, ob die Bilddatei existiert
+if not os.path.exists(image_path):
+    raise FileNotFoundError(f"Das Bild '{image_path}' wurde nicht gefunden. Bitte überprüfe den Pfad.")
+
+# Suche nach einer verfügbaren Schriftart
+font_paths = [
+    "/Library/Fonts/Arial.ttf",
+    "/System/Library/Fonts/Supplemental/Arial.ttf",
+    "/Library/Fonts/DejaVuSans-Bold.ttf",
+    "/System/Library/Fonts/Helvetica.ttc",  # Helvetica als Fallback
+]
+
+# Finde eine existierende Schriftart
+font_path = None
+for path in font_paths:
+    if os.path.exists(path):
+        font_path = path
+        break
+
+if font_path is None:
+    raise FileNotFoundError("Keine geeignete Schriftart gefunden. Bitte stelle sicher, dass eine .ttf-Datei verfügbar ist.")
+
+# Lade das Bild
+image = Image.open(image_path)
+image = image.convert('RGB')
+
+# Lade die Schriftart
+font_size = 50
+font_ = ImageFont.truetype(font_path, font_size)
+
+# Erstelle eine Liste für die veränderten Bilder
+images = []
+
+# Funktion zur Modifikation des Bildes
+def modify_image_channel(image, channel, factor, font_, text):
+    my_image = image.copy()
+    draw = ImageDraw.Draw(my_image)
+    draw.rectangle([0, 500, 1001, 564], fill='black')
+    draw.text((2, 500), text, font=font_, align="left")
+    pix = my_image.load()
+    
+    for i_width in range(image.width):
+        for i_height in range(image.height):
+            if channel == 0:
+                pix[i_width, i_height] = (int(factor * pix[i_width, i_height][0]), pix[i_width, i_height][1], pix[i_width, i_height][2])
+            elif channel == 1:
+                pix[i_width, i_height] = (pix[i_width, i_height][0], int(factor * pix[i_width, i_height][1]), pix[i_width, i_height][2])
+            elif channel == 2:
+                pix[i_width, i_height] = (pix[i_width, i_height][0], pix[i_width, i_height][1], int(factor * pix[i_width, i_height][2]))
+    
+    return my_image
+
+# Intensitätsfaktoren
+factors = [0.1, 0.5, 0.9]
+
+# Schleife zur Erstellung der Bilder mit den verschiedenen Intensitätsfaktoren
+for factor in factors:
+    # Kanal 0
+    text = 'channel 0 intensity ' + str(factor)
+    modified_image = modify_image_channel(image, 0, factor, font_, text)
+    images.append(modified_image)
+
+    # Kanal 1
+    text = 'channel 1 intensity ' + str(factor)
+    modified_image = modify_image_channel(image, 1, factor, font_, text)
+    images.append(modified_image)
+
+    # Kanal 2
+    text = 'channel 2 intensity ' + str(factor)
+    modified_image = modify_image_channel(image, 2, factor, font_, text)
+    images.append(modified_image)
+
+# Erstelle ein Kontaktblatt
+first_image = images[0]
+contact_sheet = PIL.Image.new(first_image.mode, (first_image.width * 3, first_image.height * 3))
+
+# Füge die Bilder in das Kontaktblatt ein
+x = 0
+y = 0
+for img in images:
+    contact_sheet.paste(img, (x, y))
+    if y + first_image.height == contact_sheet.height:
+        x = x + first_image.width
+        y = 0
+    else:
+        y = y + first_image.height
+
+# Ändere die Größe des Kontaktblattes und zeige es an
+contact_sheet = contact_sheet.resize((int(contact_sheet.width / 2), int(contact_sheet.height / 2)))
+contact_sheet.show()
