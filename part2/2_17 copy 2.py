@@ -21,3 +21,5 @@ return_day_number = (start_day_number + length_of_stay) % 7
 
 # Output the day of the week you will return on
 print(f"You will return home on a {days_of_week[return_day_number]}.")
+
+# now at the end of the cours we'll try to add and use the jupter notbook(ipy)
