@@ -30,6 +30,29 @@ some of the usefull commend for the terminal in win is:
 dir 
 >> list folders and files
 
+
+cd ..
+go folder up
 '''
 #Mac or iOS
 # so now we testing inside of the mac
+
+#how we can test and see the version of Python under terminal in Mac:
+# we can use this commend under the Terminal in mac:(its like win Terminal)
+'''
+ python3 -- version
+
+some of the usefull commend for the terminal in win is:
+    cd 
+>> Print Working Directory 
+
+    cd folder 
+>> to change to a new folder
+
+ls
+>> list folders and files
+
+cd ~
+>> go folder up to the first 
+'''
+
