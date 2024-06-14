@@ -95,7 +95,7 @@ while n > 1 :
     print (n)
     n = n - 1
 print('Blastoff 1!')
-'''
+''''''
 # another expample
 n = 100
 while n > 15 :
@@ -103,11 +103,7 @@ while n > 15 :
     n = n - 5
 print('Blastoff 2!')
 
-
-
-
-
-
+'''
 
 
 
