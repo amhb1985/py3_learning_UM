@@ -3,7 +3,7 @@
 
 # we use this website to run Py3 scripts: https://www.py4e.com/tools/pythonauto/?PHPSESSID=a6a89886f81243569354192792f28e33  and test the answers.
 
-print('play')
+print('pg4e >> do it again and again!!')
 # so frist of all we must download the python progrom for win or fo the mac
 
 '''
@@ -62,10 +62,20 @@ cd ~
 #print(x)
 
 #its another one
-
+'''
 x = 2 
 x = x + 2 
 print (x)
+
+
+'''
+# conditional Steps :
+x = 5 
+if x > 10 :
+    print('smaller.')
+if x < 10 :
+    print('Bigger.')
+print('Finish!')
 
 
 
