@@ -3,4 +3,6 @@
 
 # we use this website to run Py3 scripts: https://www.py4e.com/tools/pythonauto/?PHPSESSID=a6a89886f81243569354192792f28e33  and test the answers.
 
+print('play')
+
 
