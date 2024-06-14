@@ -16,4 +16,6 @@ then we can see the version of the our installed Python
 python 
  inside of the Terminal in win to run it
 
+ #for the quit the python we can use this commend 
+ quit()
 '''
