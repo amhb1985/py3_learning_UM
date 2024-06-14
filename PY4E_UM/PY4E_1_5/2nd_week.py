@@ -71,12 +71,41 @@ print (x)
 '''
 # conditional Steps :
 # its going to the Fals and True duration of the simple Example:
-x = 5 
+'''x = 5 
 if x < 10 :
     print('smaller.')
 if x > 20 :
     print('Bigger.')
 print('Finish!')
+
+'''
+## Repeated Steps:
+# its a while process
+# when we r changing  to the for example 1 we r see that
+# come from 5 and then 5-1 till 1
+'''n = 5 
+while n > 0 :
+    print (n)
+    n = n - 1
+print('Blastoff!')
+# when we r changing  to the for example 1
+# come from 5 and then 5-1 till 2 (bcos n must grater than 1)
+n = 5 
+while n > 1 :
+    print (n)
+    n = n - 1
+print('Blastoff 1!')
+'''
+# another expample
+n = 100
+while n > 15 :
+    print (n)
+    n = n - 5
+print('Blastoff 2!')
+
+
+
+
 
 
 
