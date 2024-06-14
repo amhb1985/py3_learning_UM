@@ -19,3 +19,13 @@ python
  #for the quit the python we can use this commend 
  quit()
 '''
+
+some of the usefull commend for the terminal in win is:
+    cd 
+>> Print Working Directory 
+
+    cd folder 
+>> to change to a new folder
+
+dir 
+>> list folders and files
