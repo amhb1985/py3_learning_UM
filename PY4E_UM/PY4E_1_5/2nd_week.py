@@ -56,3 +56,8 @@ cd ~
 >> go folder up to the first 
 '''
 
+# the 3rd week:
+#its easy to tp it:
+x = 1
+print(x)
+
