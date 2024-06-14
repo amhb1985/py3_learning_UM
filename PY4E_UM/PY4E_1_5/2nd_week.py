@@ -58,6 +58,17 @@ cd ~
 
 # the 3rd week:
 #its easy to tp it:
-x = 1
-print(x)
+#x = 1
+#print(x)
+
+#its another one
+
+x = 2 
+x = x + 2 
+print (x)
+
+
+
+
+
 
