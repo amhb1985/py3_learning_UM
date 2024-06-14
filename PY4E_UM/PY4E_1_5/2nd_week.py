@@ -19,7 +19,7 @@ python
  #for the quit the python we can use this commend 
  quit()
 '''
-
+'''
 some of the usefull commend for the terminal in win is:
     cd 
 >> Print Working Directory 
@@ -29,3 +29,7 @@ some of the usefull commend for the terminal in win is:
 
 dir 
 >> list folders and files
+
+'''
+#Mac or iOS
+# so now we testing inside of the mac
