@@ -70,6 +70,7 @@ print (x)
 
 '''
 # conditional Steps :
+# its going to the Fals and True duration of the simple Example:
 x = 5 
 if x < 10 :
     print('smaller.')
