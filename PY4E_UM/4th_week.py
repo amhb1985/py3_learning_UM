@@ -21,3 +21,11 @@ eee = 'hello'+ 'there'
 eee = eee + 1
 
 
+# for another one we can show the typse of every Varible with this commend
+# type
+type(eee)
+type(1)
+type('1')
+type('Hello')
+
+
