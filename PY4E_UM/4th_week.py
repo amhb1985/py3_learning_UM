@@ -8,24 +8,24 @@ y = 14
 x = 100
 
 #another thing in this 
+'''
 a = 35.0
 b = 12.50
 c = a + b
 print (c)
-
+'''
 #the2nd 
 # python know about the type of the varible
 # for example:
 
 eee = 'hello'+ 'there'
-eee = eee + 1
-
+#eee = eee + 1
 
 # for another one we can show the typse of every Varible with this commend
 # type
-type(eee)
-type(1)
-type('1')
-type('Hello')
+print(type(eee))
+print(type(1))
+print(type('1'))
+print(type('Hello'))
 
 
