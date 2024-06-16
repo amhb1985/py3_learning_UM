@@ -13,7 +13,11 @@ b = 12.50
 c = a + b
 print (c)
 
-#
-the2nd 
+#the2nd 
+# python know about the type of the varible
+# for example:
+
+eee = 'hello'+ 'there'
+eee = eee + 1
 
 
