@@ -97,6 +97,24 @@ print(pay)
 
 
 
+#try and exept methode
+# this is lik if else but in another form
+
+astr = "Bob"
+try:
+    print("Hello")
+    istr = int(astr)
+    print("There")
+except:
+    istr = -1
+print("Done", istr)
+
+
+
+
+
+
+
 
 
 
