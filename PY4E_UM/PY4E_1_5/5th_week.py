@@ -122,7 +122,38 @@ if ival > 0 :
     print("Nice WOrk!")
 else:
     print("Noth a Number.")
-    
+
+
+#the last test:
+# Prompt the user for a score
+score_input = input("Enter a score between 0.0 and 1.0: ")
+
+try:
+    # Convert the input to a float
+    score = float(score_input)
+
+    # Check if the score is within the valid range
+    if score < 0.0 or score > 1.0:
+        print("Error: Score is out of range.")
+    else:
+        # Determine the grade based on the score
+        if score >= 0.9:
+            grade = 'A'
+        elif score >= 0.8:
+            grade = 'B'
+        elif score >= 0.7:
+            grade = 'C'
+        elif score >= 0.6:
+            grade = 'D'
+        else:
+            grade = 'F'
+        
+        # Print the grade
+        print(grade)
+
+except ValueError:
+    print("Error: Invalid input. Please enter a number between 0.0 and 1.0.")
+
 
 
 
