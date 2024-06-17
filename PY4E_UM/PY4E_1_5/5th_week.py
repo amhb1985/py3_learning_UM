@@ -60,7 +60,7 @@ print( 'All done')
 '''
 # elif
 # elif i sthe combination if and else :
-x = 3
+'''x = 3
 if x < 2 :
     print("smalll")
 elif x < 10 : 
@@ -68,3 +68,37 @@ elif x < 10 :
 else : 
     print("Large.")
 print ("all done")
+'''
+
+
+#answere the test with if and else:
+#hrs = input("Enter Hours:")
+#h = float(hrs)
+
+# hours and coverst str to  float  
+hours = input("Enter Hours: ")
+hours = float(hours)
+
+# rate (10.5) and coverst to Str to float  
+rate = input("Enter Rate per Hour: ")
+rate = float(rate)
+
+
+# Calculate gross pay
+if hours <= 40:
+    pay = hours * rate
+else:
+    regular_pay = 40 * rate
+    overtime_pay = (hours - 40) * (rate * 1.5)
+    pay = regular_pay + overtime_pay
+
+# Print the result
+print(pay)
+
+
+
+
+
+
+
+
