@@ -5,7 +5,7 @@
 # if explain about the conditional situations
 #changing for another Comparision Operators
 
-x = 5
+x = 2
 if x == 5 :
     print("Equal5")
 
