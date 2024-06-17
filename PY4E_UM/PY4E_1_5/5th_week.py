@@ -50,13 +50,21 @@ print ('All done')
 
 
 # and now we try to test and lear else:
-
+'''
 y = 4
 if y > 2 : 
     print ( 'Bigger')
 else :
     print (' Smaller')
 print( 'All done')
-
-
-
+'''
+# elif
+# elif i sthe combination if and else :
+x = 3
+if x < 2 :
+    print("smalll")
+elif x < 10 : 
+    print("Medium")
+else : 
+    print("Large.")
+print ("all done")
