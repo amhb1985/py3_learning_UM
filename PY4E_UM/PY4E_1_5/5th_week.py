@@ -4,7 +4,7 @@
 #conditional Steps:
 # if explain about the conditional situations
 #changing for another Comparision Operators
-
+'''
 x = 2
 if x == 5 :
     print("Equal5")
@@ -20,7 +20,7 @@ if x <= 5 :
 if x != 6 :
     print("Not Equal 6.")
 
-
+'''
 print("Finish!")
 
 
@@ -38,8 +38,13 @@ print("Finish!")
 
 #Notice: When start IF we must End it!
 
-
-
+# Nested Decisions
+x = 42
+if x > 1 : 
+    print ('More than one')
+    if x < 100 :
+        print ('Less than 100')
+print ('All done')
 
 
 
