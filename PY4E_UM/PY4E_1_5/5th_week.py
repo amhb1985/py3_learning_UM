@@ -74,7 +74,7 @@ print ("all done")
 #answere the test with if and else:
 #hrs = input("Enter Hours:")
 #h = float(hrs)
-
+'''
 # hours and coverst str to  float  
 hours = input("Enter Hours: ")
 hours = float(hours)
@@ -94,12 +94,12 @@ else:
 
 # Print the result
 print(pay)
-
+'''
 
 
 #try and exept methode
 # this is lik if else but in another form
-
+'''
 astr = "Bob"
 try:
     print("Hello")
@@ -108,6 +108,25 @@ try:
 except:
     istr = -1
 print("Done", istr)
+'''
+#0. input:
+rawstr = input("Enter a Number:")
+
+#1. try / except methode
+try:
+    ival = int(rawstr)
+except:
+    ival = -1
+#2. if / else methode:
+if ival > 0 :
+    print("Nice WOrk!")
+else:
+    print("Noth a Number.")
+    
+
+
+
+
 
 
 
