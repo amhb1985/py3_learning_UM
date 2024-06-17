@@ -3,12 +3,27 @@
 
 #conditional Steps:
 # if explain about the conditional situations
-x = 30
-if x < 10 : 
-    print("smaller")
-if x > 20 : 
-    print("Bigger")
+#changing for another Comparision Operators
+
+x = 5
+if x == 5 :
+    print("Equal5")
+
+if x > 4 : 
+    print("greater than 4.")
+if x >= 5 : 
+    print("Greater than or Equal 5. ")
+if x < 6 :
+    print("Less than 6")
+if x <= 5 :
+    print("Less than or Equal 5.")
+if x != 6 :
+    print("Not Equal 6.")
+
+
 print("Finish!")
+
+
 '''
 # and the now we speak about the Comparision Operators:
 <   less than
@@ -17,5 +32,12 @@ print("Finish!")
 >=  grater than or Equal 
 >   greater than
 !=  Not Equal 
+
+= for the ASSIGMENT!
 '''
+
+
+
+
+
 
