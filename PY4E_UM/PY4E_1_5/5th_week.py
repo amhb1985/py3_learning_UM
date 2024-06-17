@@ -21,7 +21,7 @@ if x != 6 :
     print("Not Equal 6.")
 
 '''
-print("Finish!")
+#print("Finish!")
 
 
 '''
@@ -39,15 +39,24 @@ print("Finish!")
 #Notice: When start IF we must End it!
 
 # Nested Decisions
+'''
 x = 42
 if x > 1 : 
     print ('More than one')
     if x < 100 :
         print ('Less than 100')
 print ('All done')
+'''
 
 
+# and now we try to test and lear else:
 
+y = 4
+if y > 2 : 
+    print ( 'Bigger')
+else :
+    print (' Smaller')
+print( 'All done')
 
 
 
