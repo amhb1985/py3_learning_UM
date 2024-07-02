@@ -14,7 +14,7 @@ as string or Integer
 
 3. Looking Inside Strings
 like a charachter or each word inside of a varible for example 'banana'
-'''
+
 fruit = 'banana'
 letter = fruit[1]
 print(letter)
@@ -22,6 +22,19 @@ print(letter)
 x = 3
 w = fruit[x - 1]
 print(w)
+
+4. A character Too Far
+zot = 'abc'
+print(zot[5])
+
+5. String Have Length >>len()
+fruit = 'banana'
+print(len(fruit))
+
+
+
+'''
+
 
 
 
