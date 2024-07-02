@@ -63,13 +63,15 @@ print(count)
 7. Looking deeper in to in:
 for letter in 'banana' :
     print(letter)
-
-
-
-
-
-
 '''
+#8. Slicing String
+s = 'Monty Python'
+print(s[1:4])
+
+
+
+
+
 
 
 
