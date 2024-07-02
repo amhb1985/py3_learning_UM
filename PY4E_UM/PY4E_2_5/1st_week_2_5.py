@@ -44,11 +44,13 @@ while index < len(fruit):
     index = index + 1
 
 '''
+#we can use the easily use another form to raech same 
+'''
 fruit = 'banana'
 
 for letter in fruit: 
     print(letter)
-    
+'''
 '''
 6. 
 
