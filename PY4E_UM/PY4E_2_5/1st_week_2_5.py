@@ -27,19 +27,41 @@ print(w)
 zot = 'abc'
 print(zot[5])
 
-5. String Have Length >>len()
+#5. String Have Length >>len()
 fruit = 'banana'
 print(len(fruit))
 actually len is a Functionc..
 
 '''
 #6. Loopinng Throgh Strings:
+
+'''
 fruit = 'banana'
 index = 0 
 while index < len(fruit):
     letter = fruit[index]
     print(index, letter)
     index = index + 1
+
+'''
+fruit = 'banana'
+
+for letter in fruit: 
+    print(letter)
+    
+'''
+6. 
+
+
+
+
+
+
+
+'''
+
+
+
 
 
 
