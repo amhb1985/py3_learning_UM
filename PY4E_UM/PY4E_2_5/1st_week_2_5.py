@@ -52,7 +52,13 @@ for letter in fruit:
     print(letter)
 '''
 '''
-6. 
+6. Loop and Counting
+word = 'bana'
+count = 0 
+for letter in word :
+     if letter = 'a': 
+        count = count + 1
+print(count)
 
 
 
