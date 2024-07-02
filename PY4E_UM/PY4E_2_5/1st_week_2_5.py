@@ -73,11 +73,17 @@ print(s[1:4])
 #The next lection is about 
 #Manupulation
 
-# String Concatention
+# 2.1. String Concatention
+'''
 a = 'Hello'
 b = a + ' There'
 print(b)
 
+'''
+#2.2. Using in as  a Loogical Operator:
+fruit = 'banana'
+if 'a' in fruit :
+    print('Found it !')
 
 
 
