@@ -60,6 +60,9 @@ for letter in word :
         count = count + 1
 print(count)
 
+7. Looking deeper in to in:
+for letter in 'banana' :
+    print(letter)
 
 
 
