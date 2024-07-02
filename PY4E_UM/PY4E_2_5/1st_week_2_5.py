@@ -39,7 +39,7 @@ index = 0
 while index < len(fruit):
     letter = fruit[index]
     print(index, letter)
-    index = index + 2
+    index = index + 1
 
 
 
