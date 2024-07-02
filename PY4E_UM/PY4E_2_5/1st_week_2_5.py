@@ -71,9 +71,12 @@ print(s[1:4])
 '''
 
 #The next lection is about 
-#Manpulation
+#Manupulation
 
-
+# String Concatention
+a = 'Hello'
+b = a + ' There'
+print(b)
 
 
 
