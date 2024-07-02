@@ -52,7 +52,7 @@ for letter in fruit:
     print(letter)
 '''
 '''
-6. Loop and Counting
+#6. Loop and Counting
 word = 'bana'
 count = 0 
 for letter in word :
@@ -60,13 +60,18 @@ for letter in word :
         count = count + 1
 print(count)
 
-7. Looking deeper in to in:
+#7. Looking deeper in to in:
 for letter in 'banana' :
     print(letter)
-'''
+
 #8. Slicing String
 s = 'Monty Python'
 print(s[1:4])
+
+'''
+
+#The next lection is about 
+#Manpulation
 
 
 
