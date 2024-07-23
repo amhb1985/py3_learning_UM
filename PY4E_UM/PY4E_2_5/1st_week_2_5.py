@@ -4,7 +4,7 @@
 # so we can do again for this week 
 
 # this one actuallly is chapter 6 and about String data type
-# we r speaking now about diffrent Issue:
+# we are speaking now about diffrent Issue:
 '''
 1. String Data Type
 
