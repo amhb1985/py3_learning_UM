@@ -1,6 +1,7 @@
 #test again  with new iOS
 #1.2 Algorithms:
 '''
+again test in the editor
 Algorithm Example 1 (English)
 Ask for radius
 Compute area by squaring radius and multiplying the result by pi
