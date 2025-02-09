@@ -11,18 +11,15 @@
 print('pg4e >> do it noch....mall...und.., noch!!')
 # so frist of all we must download the python progrom for win or fo the mac
 
-'''
-#windows 
-for checking the install we can use this commend >>
+'''#windows(First Py_Commend):
+    #inside of the Terminal in win to run it
+    #to check the installation, we can use this commend: >>
 python --version
-then we can see the version of the our installed Python
 
-#after that installing we can run the code >>
+    #after that installing we can run the Python with:  >>
 python 
- inside of the Terminal in win to run it
-
- #for the quit the python we can use this commend 
- quit()
+    #for the quit the python we can use this commend 
+quit()
 '''
 '''
 some of the usefull commend for the terminal in win is:
