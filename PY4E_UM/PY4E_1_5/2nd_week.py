@@ -11,6 +11,7 @@
 print('pg4e >> do it noch....mall...und.., noch!!')
 # so frist of all we must download the python progrom for win or fo the mac
 
+#Win cmd
 '''#windows(First Py_Commends):
     #inside of the Terminal in win to run it
     #to check the installation, we can use this commend: >>
@@ -22,7 +23,6 @@ python
     #for the quit the python we can use this commend 
 quit()
 '''
-
 '''#DE. :
 # Um die Installation zu überprüfen, können wir diesen Befehl verwenden:  
 python --version  
@@ -36,7 +36,6 @@ quit()
 '''#windows(cd/dir Py_Commends):
     #commends cd: "current directory"
     #commend dir: "diectory"
-
     #Print the current working directory 
 cd
     #change to a new folder
