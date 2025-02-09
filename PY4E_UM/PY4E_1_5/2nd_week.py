@@ -11,30 +11,41 @@
 print('pg4e >> do it noch....mall...und.., noch!!')
 # so frist of all we must download the python progrom for win or fo the mac
 
-'''#windows(First Py_Commend):
+'''#windows(First Py_Commends):
     #inside of the Terminal in win to run it
     #to check the installation, we can use this commend: >>
 python --version
 
     #after that installing we can run the Python with:  >>
 python 
+
     #for the quit the python we can use this commend 
 quit()
 '''
+
+'''#DE. :
+# Um die Installation zu überprüfen, können wir diesen Befehl verwenden:  
+python --version  
+# Damit sehen wir die Version des installierten Python.  
+# Nach der Installation können wir Python mit folgendem Befehl starten:  
+python  
+# Im Terminal unter Windows, um es auszuführen.  
+# Um Python zu beenden, können wir diesen Befehl verwenden:  
+quit()  
 '''
-some of the usefull commend for the terminal in win is:
-    cd 
->> Print Working Directory 
+'''#windows(cd/dir Py_Commends):
+    #commends cd: "current directory"
+    #commend dir: "diectory"
 
-    cd folder 
->> to change to a new folder
-
+    #Print the current working directory 
+cd
+    #change to a new folder
+cd folder 
+    #list folders and files
 dir 
->> list folders and files
-
-
+    #go up folder up
 cd ..
-go folder up
+
 '''
 #Mac or iOS
 # so now we testing inside of the mac
