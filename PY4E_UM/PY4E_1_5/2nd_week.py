@@ -8,7 +8,7 @@
 # Wir verwenden diese Website, um Python-3-Skripte auszuführen:  
 
 
-print('pg4e >> do it again and again!!')
+print('pg4e >> do it noch....mall...und.., noch!!')
 # so frist of all we must download the python progrom for win or fo the mac
 
 '''
