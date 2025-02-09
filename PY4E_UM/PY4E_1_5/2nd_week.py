@@ -1,7 +1,9 @@
-
-#this is the py3 learning under the PY4E Python for every one Course in Uni. Michigan with Dr. Chuck
-
-# we use this website to run Py3 scripts: https://www.py4e.com/tools/pythonauto/?PHPSESSID=a6a89886f81243569354192792f28e33  and test the answers.
+#
+# This is the Python 3 learning under the PY4E "Python for Everybody" 
+# course at the University of Michigan with Dr. Chuck.  
+# We use this website to run Python 3 scripts:  
+# https://www.py4e.com/tools/pythonauto/?PHPSESSID=a6a89886f81243569354192792f28e33 
+#  and test the answers.
 
 print('pg4e >> do it again and again!!')
 # so frist of all we must download the python progrom for win or fo the mac
