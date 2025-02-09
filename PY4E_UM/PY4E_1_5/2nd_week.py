@@ -4,6 +4,9 @@
 # We use this website to run Python 3 scripts:  
 # https://www.py4e.com/tools/pythonauto/?PHPSESSID=a6a89886f81243569354192792f28e33 
 #  and test the answers.
+#auf de: # Dies ist das Python-3-Lernen im PY4E-Kurs „Python for Everybody“ an der Universität Michigan mit Dr. Chuck.  
+# Wir verwenden diese Website, um Python-3-Skripte auszuführen:  
+
 
 print('pg4e >> do it again and again!!')
 # so frist of all we must download the python progrom for win or fo the mac
