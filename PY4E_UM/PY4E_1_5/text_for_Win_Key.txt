@@ -22,8 +22,18 @@ A S D F G H J K L Ö Ä '
 mit option Link :
 
 option(LINK) + 0 + ...
-und dann wählenwir ander Buchstaben aus : obere Task DATEi, Bearbeiten Ansischt (z. B in der Text editor)
+und dann wählen wir ander Buchstaben aus : obere Task DATEi, Bearbeiten Ansischt (z. B in der Text editor)
 
+option (RIGHT) + UP(Numbers)
+
+2: ²
+3: ³
+
+7: {
+8: [
+9: ]
+0: }
+ß: \
 
 
 
