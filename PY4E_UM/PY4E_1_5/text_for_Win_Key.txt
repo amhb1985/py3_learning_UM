@@ -35,6 +35,14 @@ option (RIGHT) + UP(Numbers)
 0: }
 ß: \
 
+option (RIGHT) + Alphabet 
+Q: @
+E: €
+*: ~
+>: |
+M: µ
+
+
 
 
 
