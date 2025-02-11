@@ -1,3 +1,11 @@
 Text_Key_Win_in_MacBook
 this is a text data for check to Windows Kwyboards in macbook M1 Keyborads.
 
+Windows 11 Pro (mit MacBook M1, in Parallel "De" Tastatur)
+original:
+
+^ 1 2 3 4 5 6 7 8 9 0 ß ´
+q w e r t z u i o p ü  +
+a s d f g h j k l ö ä #
+< y x c v b n m , . -
+
