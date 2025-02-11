@@ -9,3 +9,11 @@ q w e r t z u i o p ü  +
 a s d f g h j k l ö ä #
 < y x c v b n m , . -
 
+mit Schift: 
+^ ´ ! " § $ % & / ( ) = ?
+Q W E R T Z U I O P Ü * 
+A S D F G H J K L Ö Ä ' 
+< Y X C V B N M ; : -
+
+
+
