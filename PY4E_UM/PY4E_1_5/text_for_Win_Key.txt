@@ -5,7 +5,7 @@ finding the Greek Alphabets and another Mathematic's Symbole
 to use in Python Script in der Casio Cal fX-CG50 Python program. 
 
 
-Windows 11 Pro (mit MacBook M1, in Parallel "De" Tastatur)
+Windows 11 Pro ( MacBook M1, in Parallel "De" Keyboards)
 original:
 
 ^ 1 2 3 4 5 6 7 8 9 0 ß ´
@@ -13,16 +13,16 @@ q w e r t z u i o p ü  +
 a s d f g h j k l ö ä #
 < y x c v b n m , . -
 
-mit Schift: 
+Shift UP: 
 ^ ´ ! " § $ % & / ( ) = ?
 Q W E R T Z U I O P Ü * 
 A S D F G H J K L Ö Ä ' 
 < Y X C V B N M ; : -
 
-mit option Link :
+option Left :
 
-option(LINK) + 0 + ...
-und dann wählen wir ander Buchstaben aus : obere Task DATEi, Bearbeiten Ansischt (z. B in der Text editor)
+option(Left) + 0 + ...
+use to edit or another Tasks option.
 
 option (RIGHT) + UP(Numbers)
 
