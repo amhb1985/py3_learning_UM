@@ -1,5 +1,9 @@
 Text_Key_Win_in_MacBook
 this is a text data for check to Windows Kwyboards in macbook M1 Keyborads.
+the Goal/Target:
+finding the Greek Alphabets and another Mathematic's Symbole
+to use in Python Script in der Casio Cal fX-CG50 Python program. 
+
 
 Windows 11 Pro (mit MacBook M1, in Parallel "De" Tastatur)
 original:
