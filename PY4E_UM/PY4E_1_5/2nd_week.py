@@ -12,6 +12,7 @@ print('pg4e >> do it noch....mall...und.., noch!!')
 # so frist of all we must download the python progrom for win or fo the mac
 
 #Win cmd
+#we can use too the some online IDE like ANACONDA py4e to test and train it:
 '''#windows(First Py_Commends):
     #inside of the Terminal in win to run it
     #to check the installation, we can use this commend: >>
