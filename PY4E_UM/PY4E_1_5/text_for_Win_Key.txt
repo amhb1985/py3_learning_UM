@@ -42,7 +42,10 @@ E: €
 >: |
 M: µ
 
-
+#ACII (American Standard Code for Information Interchange)
+#dez Dezimaler Wert
+DOS
+Win
 
 
 
