@@ -42,6 +42,9 @@ E: €
 >: |
 M: µ
 
+# Whats the ASCII Key in the MACboook M1? 
+option is alt but its not working!
+Option + ? 
 #ACII (American Standard Code for Information Interchange)
 #dez Dezimaler Wert
 DOS
