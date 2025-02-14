@@ -46,3 +46,5 @@ def mass_stab():
 
 # Testaufruf der Funktion
 mass_stab()
+
+#erste Fehler Kommt wegen der Buchstaben ß oder ss
