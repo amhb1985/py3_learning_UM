@@ -48,3 +48,5 @@ def mass_stab():
 mass_stab()
 
 #erste Fehler Kommt wegen der Buchstaben ß oder ss
+# so es sollte noch mal für micro py testen.
+# Das andere Problem lag auf dem klene Bildschrim von fx-CG50: weswgen muss zusammenfassn und möglischewrweise Scripten verkutzen.  
