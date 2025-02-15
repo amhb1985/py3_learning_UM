@@ -5,3 +5,8 @@ https://micropython.org/unicorn/
 der erste versucht für diese website leider war Unerfolgereich. 
 
 Der Casio fx-CG50 verwendet MicroPython 1.9.4 als seine Python-Version.
+MicroPython ist eine angepasste Version von Python 3.4, die für Mikrocontroller und eingebettete Systeme optimiert ist.
+Nicht alle Standard-Python-Module sind verfügbar (z. B. numpy oder pandas fehlen).
+Grundlegende Module wie math, random und time sind vorhanden.
+Dateioperationen (open(), write(), read()) sind eingeschränkt.
+Grafische Befehle können mit casioplot genutzt werden.
