@@ -2,3 +2,6 @@
 
 Das ist eine gute Quelle für lernen oder überprüfen Py scripte in casio fx-CG50:
 https://micropython.org/unicorn/
+der erste versucht für diese website leider war Unerfolgereich. 
+
+Der Casio fx-CG50 verwendet MicroPython 1.9.4 als seine Python-Version.
