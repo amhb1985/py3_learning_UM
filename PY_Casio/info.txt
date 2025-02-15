@@ -1,0 +1,4 @@
+
+
+Das ist eine gute Quelle für lernen oder überprüfen Py scripte in casio fx-CG50:
+https://micropython.org/unicorn/
