@@ -51,4 +51,6 @@ mass_stab()
 
 #P4: erste Fehler Kommt wegen der Buchstaben ß oder ss
 #P5: so es sollte noch mal für micro py testen.
-#P6: Das andere Problem lag auf dem klene Bildschrim von fx-CG50: weswgen muss zusammenfassn und möglischewrweise Scripten verkutzen.  
+#P6: Das andere Problem lag auf dem klene Bildschrim von fx-CG50: weswgen muss zusammenfassn und möglischewrweise Scripten verkutzen. 
+# 
+# p4 bis p6 hat gelöst. Es ist Breit um zu nutzen ;)
