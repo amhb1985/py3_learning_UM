@@ -8,3 +8,5 @@ for x in range(128):  # Bildschirmbreite: 128 Pixel
 
 # Bildschirm aktualisieren
 casioplot.show()
+
+#leider sie kann man nicht in der Spider IDE runnen. Vermütlich, wegen der Pacakage 
