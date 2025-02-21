@@ -1,6 +1,6 @@
 # this is the Expretion in py3
 
-#Varoables
+#variables
 x = 12.2 
 y = 14
 
