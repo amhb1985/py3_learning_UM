@@ -1,6 +1,6 @@
 
 #this is the example for test pythons script inside of casio fx-CG5
-#thsi script writing with the AI:
+#this script writing with the AI:
 def mass_stab():
     print("Masstab_M")
     print("1: M berechnen?")
