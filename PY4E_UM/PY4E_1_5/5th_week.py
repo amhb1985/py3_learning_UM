@@ -20,10 +20,10 @@ if x <= 5 :
 if x != 6 :
     print("Not Equal 6.")
 
+
+print("Finish!")
+
 '''
-#print("Finish!")
-
-
 '''
 # and the now we speak about the Comparision Operators:
 <   less than
@@ -74,7 +74,7 @@ print ("all done")
 #answere the test with if and else:
 #hrs = input("Enter Hours:")
 #h = float(hrs)
-'''
+
 # hours and coverst str to  float  
 hours = input("Enter Hours: ")
 hours = float(hours)
@@ -94,7 +94,6 @@ else:
 
 # Print the result
 print(pay)
-'''
 
 
 #try and exept methode
@@ -113,6 +112,7 @@ print("Done", istr)
 rawstr = input("Enter a Number:")
 
 #1. try / except methode
+'''
 try:
     ival = int(rawstr)
 except:
@@ -126,6 +126,7 @@ else:
 
 #the last test:
 # Prompt the user for a score
+
 score_input = input("Enter a score between 0.0 and 1.0: ")
 
 try:
@@ -154,6 +155,7 @@ try:
 except ValueError:
     print("Error: Invalid input. Please enter a number between 0.0 and 1.0.")
 
+'''
 
 
 
