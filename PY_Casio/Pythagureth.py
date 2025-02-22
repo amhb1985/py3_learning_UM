@@ -43,4 +43,4 @@ def pythagoras():
         print("Fehler: Bitte gib eine gultige Zahl ein.")
 
 pythagoras()
-
+#P: ist bischen mehr Beschreinung in der Bildschrim von Tachenrechner >>> Es ist KLEIN!
