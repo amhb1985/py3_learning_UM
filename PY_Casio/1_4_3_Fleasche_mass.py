@@ -1,7 +1,7 @@
 
 #this is the example for test pythons script inside of casio fx-CG5
 #this script is from another examaple 
-def mass_stab():
+'''def mass_stab():
     print("Masstab_M")
     print("1: M berechnen?")
     print("2: Stre.Natur SN?")
@@ -46,7 +46,7 @@ def mass_stab():
 
 # Testaufruf der Funktion
 mass_stab()
-
+'''
 #ende
 
 #Problems:
