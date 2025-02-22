@@ -22,4 +22,11 @@ print("h=Sqr Γ(b²-p²)")
 print("h ist: ",h)
 
 #ende
+#dies ist fuer q
+#Rechtwinkel Dreieck
 
+# sollte naturlisch in der TR mit 
+
+
+#ende
+#p1: Griesche Alphabet in TR?

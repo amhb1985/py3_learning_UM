@@ -20,6 +20,5 @@ print("q ist: ", q)
 print("h=Sqr Γ(c²-a²)")
 print("h ist:", h)
 
-#print(h)
-
 #ende
+#p1: Gerischische Alphabet in TR?
