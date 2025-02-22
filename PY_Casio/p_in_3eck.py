@@ -5,7 +5,7 @@
 # sollte naturlisch in der TR mit 
 #Symbole erklaeren lassen
 import math
-print("q_Rechtwinkel Δ 3eck")
+print("p_Rechtwinkel Δ 3eck")
 a = float(input("enter a = "))
 b = float(input("enter b = "))
 c = float(input("enter grosse c = "))
