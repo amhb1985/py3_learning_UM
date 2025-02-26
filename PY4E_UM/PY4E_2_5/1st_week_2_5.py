@@ -79,18 +79,18 @@ a = 'Hello'
 b = a + ' There'
 print(b)
 
-'''
 #2.2. Using in as  a Loogical Operator:
 fruit = 'banana'
 if 'a' in fruit :
     print('Found it !')
-    
+
+
 #next update
 
 #update
 #wieder holen und weuter lernen
 
-
+'''
 
 
 
