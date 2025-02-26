@@ -14,11 +14,13 @@ as string or Integer
 
 3. Looking Inside Strings
 like a charachter or each word inside of a varible for example 'banana'
-
+'''
+'''
 fruit = 'banana'
 letter = fruit[1]
 print(letter)
-
+'''
+'''
 x = 3
 w = fruit[x - 1]
 print(w)
@@ -31,10 +33,11 @@ print(zot[5])
 fruit = 'banana'
 print(len(fruit))
 actually len is a Functionc..
-
+'''
 '''
 #6. Loopinng Throgh Strings:
 
+'''
 '''
 fruit = 'banana'
 index = 0 
@@ -42,24 +45,16 @@ while index < len(fruit):
     letter = fruit[index]
     print(index, letter)
     index = index + 1
-
+'''
 '''
 #we can use the easily use another form to raech same 
+'''''''
 '''
-fruit = 'banana'
 
-for letter in fruit: 
-    print(letter)
+#6'''. Loop and Counting
 '''
 '''
-#6. Loop and Counting
-word = 'bana'
-count = 0 
-for letter in word :
-     if letter = 'a': 
-        count = count + 1
-print(count)
-
+'''
 #7. Looking deeper in to in:
 for letter in 'banana' :
     print(letter)
@@ -67,7 +62,7 @@ for letter in 'banana' :
 #8. Slicing String
 s = 'Monty Python'
 print(s[1:4])
-
+'''
 '''
 
 #The next lection is about 
@@ -75,7 +70,7 @@ print(s[1:4])
 
 # 2.1. String Concatention
 '''
-a = 'Hello'
+'''a = 'Hello'
 b = a + ' There'
 print(b)
 
@@ -83,18 +78,12 @@ print(b)
 fruit = 'banana'
 if 'a' in fruit :
     print('Found it !')
-
+'''
 
 #next update
 
 #update
 #wieder holen und weuter lernen
-
-'''
-
-
-
-
 
 
 
