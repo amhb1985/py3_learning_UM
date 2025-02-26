@@ -88,8 +88,7 @@ if 'a' in fruit :
 #next update
 
 #update
-#update
-
+#wieder holen und weuter lernen
 
 
 
