@@ -4,4 +4,4 @@
 # String:
 zot = 'abc'
 print(zot)
-
+print(zot[0])
