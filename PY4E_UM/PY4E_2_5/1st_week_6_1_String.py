@@ -12,4 +12,5 @@ fruit = 'banana'
 print(len(fruit))
 '''
 
-#len() is a Function!
+#len() is a Function! inside od len is a Function.
+
