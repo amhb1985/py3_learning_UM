@@ -12,6 +12,6 @@ print(zot[0:2])
 fruit = 'banana'
 print(len(fruit))
 '''
-# nächste
+# nächste is again loop in String
 
 #
