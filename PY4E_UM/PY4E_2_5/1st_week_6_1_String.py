@@ -27,6 +27,7 @@ while index < len (obst2):
     print(letter)
     index = index + 2'''
 #3. Looping and Counting
+'''
 # mit eine  'for in ' kann die Alpabet (d.h. string) zählen kann
 Worter = 'Bananen'
 count = 0 
@@ -35,6 +36,16 @@ for letter in Worter:
         count = count + 1
     
 print(count)
+'''
+#4. Slicing Strings :
+s = "Mounty python"
+print(s)
+print(s[0:2])
+print(s[2:6])
+print(s[0:2])
+
+
+
 
 
 
