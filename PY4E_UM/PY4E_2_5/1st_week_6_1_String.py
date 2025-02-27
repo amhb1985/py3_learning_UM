@@ -43,6 +43,11 @@ print(s)
 print(s[0:2])
 print(s[2:6])
 print(s[0:2])
+print(s[3:20])
+print(s[:])
+
+
+
 
 
 
