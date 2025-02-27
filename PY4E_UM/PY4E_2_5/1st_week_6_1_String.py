@@ -18,7 +18,7 @@ for letter in obst:
     print(letter)
 
 #2. Dies ist gleich Oben aber mit mehr Details.
-obst2 = "APFEL"
+obst2 = " APFEL " 
 index = 0 
 while index < len (obst2):
     letter = obst2[index]
