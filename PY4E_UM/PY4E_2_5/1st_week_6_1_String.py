@@ -31,7 +31,7 @@ while index < len (obst2):
 Worter = 'Bananen'
 count = 0 
 for letter in Worter:
-    if letter == 'a':
+    if letter == 'n':
         count = count + 1
     
 print(count)
