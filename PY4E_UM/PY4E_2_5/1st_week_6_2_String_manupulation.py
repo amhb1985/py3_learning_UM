@@ -21,11 +21,16 @@ else:
    
 '''
 #String Library 
-gruesse = "Hallo Bob!"
+
+'''gruesse = "Hallo Bob!"
 zap = gruesse.lower()
 print(zap)
 
 #wir können direkt .lower in string Format benutzen!
 print("HALLO nochMall!!".lower())
 
+'''
+Kollege = "Hallo Welt!"
+type(Kollege)
+#dir(Kollege)
 
