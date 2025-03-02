@@ -5,9 +5,11 @@ print(b)
 c = a + " " + b
 print(c)
 '''
-#
 
- 02_String _comparison#
+#02_String _comparison#
+
+Wort = 'Apfel'
+
 if Wort == "Apfel" :
     print("alles gut, Apfel")
 if Wort < 'Apfel' :
