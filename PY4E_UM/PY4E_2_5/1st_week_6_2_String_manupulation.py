@@ -7,7 +7,7 @@ print(c)
 '''
 
 #02_String _comparison#
-
+'''
 Wort = 'Apll'
 
 if Wort == "Apfel" :
@@ -19,5 +19,10 @@ elif Wort >'Apfel':
 else:
     print("alles gut, Apfel")
    
+'''
+#String Library 
+gruesse = "Hallo Bob!"
+zap = gruesse.lower()
+print(zap)
 
 
