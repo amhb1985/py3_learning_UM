@@ -38,7 +38,7 @@ for letter in Worter:
 print(count)
 '''
 #4. Slicing Strings :
-s = "Mounty python"
+'''s = "Mounty python"
 print(s)
 print(s[0:2])
 print(s[2:6])
@@ -46,7 +46,8 @@ print(s[0:2])
 print(s[3:20])
 print(s[:])
 
-
+'''
+# again
 
 
 
