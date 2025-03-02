@@ -8,14 +8,14 @@ print(c)
 
 #02_String _comparison#
 
-Wort = 'Apfel'
+Wort = 'Apll'
 
 if Wort == "Apfel" :
     print("alles gut, Apfel")
 if Wort < 'Apfel' :
-   print("Dein Wort,+ Wort + 'kommt bevor dem Apfel.' ")
+   print("Dein Wort, "+ Wort + ' ,kommt bevor dem Apfel.')
 elif Wort >'Apfel':
-   print("Dein Wort,+ Wort + 'kommt nach dem Apfel.' ")
+   print("Dein Wort, "+ Wort + ' ,kommt nach dem Apfel.')
 else:
     print("alles gut, Apfel")
    
