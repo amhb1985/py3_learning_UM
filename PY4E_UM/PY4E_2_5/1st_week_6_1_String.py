@@ -47,7 +47,7 @@ print(s[3:20])
 print(s[:])
 
 '''
-# again
+# set new py data
 
 
 
