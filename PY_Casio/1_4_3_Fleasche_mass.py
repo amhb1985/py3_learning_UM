@@ -1,6 +1,7 @@
 
 #this is the example for test pythons script inside of casio fx-CG5
 #this script is from another examaple 
+# we try to change it
 def mass_stab():
     print("Masstab_M")
     print("1: M berechnen?")
