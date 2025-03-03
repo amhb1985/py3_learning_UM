@@ -1,7 +1,15 @@
 
 #diese sind erste versuch für mPy in der TR:
+# a: An-Kath:
+import math
+"""a = float(input("enter α a = "))"""
+b = float(input("enter β b = "))
+c = float(input(" Δ c muss grosser als b = "))
+d =(c**2-b**2)
+a=math.sqrt(d)
+#a = float
 
-# a: AnKath:
+# b: Gegen-Kath:
 import math
 a = float(input("enter a = "))
 """b = float(input("enter b = "))"""
