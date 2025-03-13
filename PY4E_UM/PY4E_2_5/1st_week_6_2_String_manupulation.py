@@ -30,7 +30,9 @@ print(zap)
 print("HALLO nochMall!!".lower())
 
 '''
+'''
 Kollege = "Hallo Welt!"
 type(Kollege)
-#dir(Kollege)
+#dir(Kollege)'''
+# so weiter mit the String Library
 
