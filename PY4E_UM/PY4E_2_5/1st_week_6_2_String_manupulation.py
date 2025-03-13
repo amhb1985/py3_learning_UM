@@ -33,6 +33,10 @@ print("HALLO nochMall!!".lower())
 '''
 Kollege = "Hallo Welt!"
 type(Kollege)
-#dir(Kollege)'''
+dir(Kollege)'''
 # so weiter mit the String Library
+#das ist eine website für string library:
+#https://docs.python.org/3/library/stdtypes.html#string-methods
+# 
+
 
