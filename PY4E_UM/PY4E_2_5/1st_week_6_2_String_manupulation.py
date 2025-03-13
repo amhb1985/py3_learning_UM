@@ -37,6 +37,9 @@ dir(Kollege)'''
 # so weiter mit the String Library
 #das ist eine website für string library:
 #https://docs.python.org/3/library/stdtypes.html#string-methods
-# 
-
+# das meistens ist anfang mit 
+# str + 
+#  .casefold()
+#  .capitalize()
+#  .count()
 
