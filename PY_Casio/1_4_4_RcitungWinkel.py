@@ -41,3 +41,5 @@ def main():
     print("Strecke = sqrt(dy² + dx²)")
 
 main()
+
+#test_01_ok...
