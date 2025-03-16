@@ -22,30 +22,35 @@ def berechne_strecke(dy, dx):
 def main():
     print("Willkommen zum Koordinatenrechner!")
     
-    # Vordefinierte Werte für Tests (anstelle von input, da input() nicht unterstützt wird)
-    testwerte = [
-        (1, 0, 0, 4, 3),  # Quadrant 1, Beispielkoordinaten
-        (2, 0, 0, -4, 3), # Quadrant 2
-        (3, 0, 0, -4, -3),# Quadrant 3
-        (4, 0, 0, 4, -3)  # Quadrant 4
-    ]
+    y1 = float(input("Gib die Anfangskoordinate Y ein: "))
+    x1 = float(input("Gib die Anfangskoordinate X ein: "))
+    y2 = float(input("Gib die Endkoordinate Y ein: "))
+    x2 = float(input("Gib die Endkoordinate X ein: "))
     
-    for quadrant, y1, x1, y2, x2 in testwerte:
-        print(f"\nTestfall: Quadrant {quadrant}, Start: ({y1}, {x1}), Ende: ({y2}, {x2})")
-        
-        dy = y2 - y1
-        dx = x2 - x1
-        
-        richtungswinkel = berechne_richtungswinkel(dy, dx, quadrant)
-        strecke = berechne_strecke(dy, dx)
-        
-        print("Ergebnisse:")
-        print(f"Richtungswinkel: {richtungswinkel:.2f} gon")
-        print(f"Strecke: {strecke:.2f} Einheiten")
-        
-        print("Verwendete Formeln:")
-        print("Richtungswinkel = atan2(dy, dx) * 200 / pi + Anpassung je nach Quadrant")
-        print("Strecke = sqrt(dy^2 + dx^2)")
+    quadrant = int(input("In welchem Quadranten befindet sich der Endpunkt? (1/2/3/4): "))
+    if quadrant not in [1, 2, 3, 4]:
+        raise ValueError("Ungültiger Quadrant. Bitte 1, 2, 3 oder 4 eingeben.")
+    
+    dy = y2 - y1
+    dx = x2 - x1
+    
+    richtungswinkel = berechne_richtungswinkel(dy, dx, quadrant)
+    strecke = berechne_strecke(dy, dx)
+    
+    print("\nErgebnisse:")
+    print(f"Richtungswinkel: {richtungswinkel:.2f} gon")
+    print(f"Strecke: {strecke:.2f} Einheiten")
+    
+    print("\nVerwendete Formeln:")
+    print("Richtungswinkel = atan2(dy, dx) * 200 / pi + Anpassung je nach Quadrant")
+    print("Strecke = sqrt(dy^2 + dx^2)")
 
 if __name__ == "__main__":
     main()
+
+#probleme:
+# 1. ist Formula gleiche wie in der Formel samelung?? 
+#Richtungswinkel = atan2(dy, dx) * 200 / pi + Anpassung je nach Quadrant
+
+#2. Probe Fehlt !!!
+#3. eine Kurtze Version für TachenRechne Bildschrimsformat
