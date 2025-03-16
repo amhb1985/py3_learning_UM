@@ -55,6 +55,6 @@ def main():
 if __name__ == "__main__":
     main()
 
-
+#in der TaschenRechner hatt Syntax Error in der Line 47
 
 # Probe ist Falsch!
