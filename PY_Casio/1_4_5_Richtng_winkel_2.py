@@ -49,8 +49,9 @@ if __name__ == "__main__":
     main()
 
 #probleme:
-# 1. ist Formula gleiche wie in der Formel samelung?? 
+# 1. ist Formel gleiche wie in der Formel samelung?? 
 #Richtungswinkel = atan2(dy, dx) * 200 / pi + Anpassung je nach Quadrant
+# Die Ergibnisse ist gleich!! weswegen Formel ist gleiche. 
 
 #2. Probe Fehlt !!!
 #3. eine Kurtze Version für TachenRechne Bildschrimsformat
