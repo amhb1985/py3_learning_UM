@@ -1,47 +1,56 @@
-
 import math
 
-def bestimme_quadrant(dy, dx):
-    if dx > 0 and dy >= 0:
-        return 1, 0  # 1. Quadrant, kein Offset
-    elif dx <= 0 and dy > 0:
-        return 2, 200  # 2. Quadrant, +200 gon
-    elif dx < 0 and dy <= 0:
-        return 3, 200  # 3. Quadrant, +200 gon
-    elif dx >= 0 and dy < 0:
-        return 4, 400  # 4. Quadrant, +400 gon
-
-def berechne_richtungswinkel(dy, dx, offset):
-    grundwinkel = math.atan2(dy, dx) * 200 / math.pi  # atan2 direkt verwenden
-    richtungswinkel = grundwinkel + offset
-    return richtungswinkel % 400  # Sicherstellen, dass der Winkel zwischen 0-400 gon liegt
+def berechne_richtungswinkel(dy, dx, quadranten):
+    """ Berechnet den Richtungswinkel basierend auf dem Quadranten. """
+    t = math.atan2(dy, dx) * 200 / math.pi  # Umrechnung von Bogenmaß nach Gon
+    
+    if quadranten == 1:
+        return t  # Keine Anpassung nötig
+    elif quadranten == 2:
+        return t + 200  # 2. Quadrant
+    elif quadranten == 3:
+        return t + 200  # 3. Quadrant
+    elif quadranten == 4:
+        return t + 400  # 4. Quadrant
+    else:
+        raise ValueError("Ungültiger Quadrant. Bitte 1, 2, 3 oder 4 eingeben.")
 
 def berechne_strecke(dy, dx):
+    """ Berechnet die Strecke zwischen den Punkten. """
     return math.sqrt(dy**2 + dx**2)
 
+def berechne_probe(y2, x2, y1, x1, t, s):
+    """ Berechnet die Probe für die gegebenen Werte. """
+    return (y2 + x2) - (y1 + x1) - (s * math.sqrt(2) * math.sin(math.radians(t + 50)))
+
 def main():
-    y1 = float(input("Gib die Anfangskoordinate Y ein: "))
-    x1 = float(input("Gib die Anfangskoordinate X ein: "))
-    y2 = float(input("Gib die Endkoordinate Y ein: "))
-    x2 = float(input("Gib die Endkoordinate X ein: "))
+    print("Willkommen zum Koordinatenrechner!")
+    
+    y1 = float(input("Gib die Anfangskoordinate Y (A) ein: "))
+    x1 = float(input("Gib die Anfangskoordinate X (A) ein: "))
+    y2 = float(input("Gib die Endkoordinate Y (E) ein: "))
+    x2 = float(input("Gib die Endkoordinate X (E) ein: "))
+    
+    quadrant = int(input("In welchem Quadranten befindet sich der Endpunkt? (1/2/3/4): "))
+    if quadrant not in [1, 2, 3, 4]:
+        raise ValueError("Ungültiger Quadrant. Bitte 1, 2, 3 oder 4 eingeben.")
     
     dy = y2 - y1
     dx = x2 - x1
     
-    quadrant, offset = bestimme_quadrant(dy, dx)
-    richtungswinkel = berechne_richtungswinkel(dy, dx, offset)
-    strecke = berechne_strecke(dy, dx)
+    t = berechne_richtungswinkel(dy, dx, quadrant)
+    s = berechne_strecke(dy, dx)
+    probe = berechne_probe(y2, x2, y1, x1, t, s)
     
-    print("\n--- Ergebnisse ---")
-    print(f"Quadrant: {quadrant}")
-    print(f"Richtungswinkel: {richtungswinkel:.2f} gon")
-    print(f"Strecke: {strecke:.2f}")
-    print("\n--- Formeln ---")
-    print("Richtungswinkel = atan2(dy, dx) * 200 / π + Offset")
-    print("Strecke = sqrt(dy² + dx²)")
+    print("\nErgebnisse:")
+    print(f"Richtungswinkel t: {t:.2f} gon")
+    print(f"Strecke s: {s:.2f} Einheiten")
+    print(f"Probe: {probe:.2f}")
+    
+    print("\nVerwendete Formeln:")
+    print("t = arc tan (dy/dx) + Anpassung je nach Quadrant")
+    print("s = sqrt(dy^2 + dx^2)")
+    print("Probe: (Y2 + X2) - (Y1 + X1) = s * sqrt(2) * sin(t + 50 gon)")
 
-main()
-
-#test_01_ok...
-#01 _problem: Mehr beschreibung
-
+if __name__ == "__main__":
+    main()
