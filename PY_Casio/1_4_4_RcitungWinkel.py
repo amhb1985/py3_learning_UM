@@ -62,5 +62,5 @@ if __name__ == "__main__":
 
 
 #in der TaschenRechner hatt Syntax Error in der Line 47
-
+# es gibt jetzt keine Reaction in TR
 # Probe ist Falsch!
