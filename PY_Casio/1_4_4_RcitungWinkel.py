@@ -13,7 +13,7 @@ def berechne_richtungswinkel(dy, dx, quadranten):
     elif quadranten == 4:
         return t + 400  # 4. Quadrant
     else:
-        raise ValueError("Ungültiger Quadrant. Bitte 1, 2, 3 oder 4 eingeben.")
+        return None  # Fehlerbehandlung für ungültige Quadranten
 
 def berechne_strecke(dy, dx):
     """ Berechnet die Strecke zwischen den Punkten. """
@@ -33,27 +33,33 @@ def main():
     
     quadrant = int(input("In welchem Quadranten befindet sich der Endpunkt? (1/2/3/4): "))
     if quadrant not in [1, 2, 3, 4]:
-        raise ValueError("Ungültiger Quadrant. Bitte 1, 2, 3 oder 4 eingeben.")
+        print("Fehler: Ungültiger Quadrant. Bitte 1, 2, 3 oder 4 eingeben.")
+        return
     
     dy = y2 - y1
     dx = x2 - x1
     
     t = berechne_richtungswinkel(dy, dx, quadrant)
+    if t is None:
+        print("Fehler: Ungültiger Quadrant.")
+        return
+    
     s = berechne_strecke(dy, dx)
     probe = berechne_probe(y2, x2, y1, x1, t, s)
     
     print("\nErgebnisse:")
-    print(f"Richtungswinkel t: {t:.2f} gon")
-    print(f"Strecke s: {s:.2f} Einheiten")
-    print(f"Probe: {probe:.2f}")
+    print("Richtungswinkel t:", t, "gon")
+    print("Strecke s:", s, "Einheiten")
+    print("Probe:", probe)
     
     print("\nVerwendete Formeln:")
     print("t = arc tan (dy/dx) + Anpassung je nach Quadrant")
     print("s = sqrt(dy^2 + dx^2)")
     print("Probe: (Y2 + X2) - (Y1 + X1) = s * sqrt(2) * sin(t + 50 gon)")
-
+    
 if __name__ == "__main__":
     main()
+
 
 #in der TaschenRechner hatt Syntax Error in der Line 47
 
