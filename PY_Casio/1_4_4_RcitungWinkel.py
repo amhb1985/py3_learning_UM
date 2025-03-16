@@ -1,66 +1,48 @@
 import math
 
-def berechne_richtungswinkel(dy, dx, quadranten):
-    """ Berechnet den Richtungswinkel basierend auf dem Quadranten. """
-    t = math.atan2(dy, dx) * 200 / math.pi  # Umrechnung von Bogenmaß nach Gon
-    
-    if quadranten == 1:
-        return t  # Keine Anpassung nötig
-    elif quadranten == 2:
-        return t + 200  # 2. Quadrant
-    elif quadranten == 3:
-        return t + 200  # 3. Quadrant
-    elif quadranten == 4:
-        return t + 400  # 4. Quadrant
+def berechne_richtungswinkel(dY, dX, quadrant):
+    t = math.atan2(dY, dX) * 200 / math.pi  
+    if quadrant == 1:
+        return t  
+    elif quadrant == 2 or quadrant == 3:
+        return t + 200  
+    elif quadrant == 4:
+        return t + 400  
     else:
-        return None  # Fehlerbehandlung für ungültige Quadranten
+        return None  
 
-def berechne_strecke(dy, dx):
-    """ Berechnet die Strecke zwischen den Punkten. """
-    return math.sqrt(dy**2 + dx**2)
-
-def berechne_probe(y2, x2, y1, x1, t, s):
-    """ Berechnet die Probe für die gegebenen Werte. """
-    return (y2 + x2) - (y1 + x1) - (s * math.sqrt(2) * math.sin((t + 50) * math.pi / 200))
+def berechne_strecke(dY, dX):
+    return math.sqrt(dY * dY + dX * dX)
 
 def main():
-    print("Willkommen zum Koordinatenrechner!")
+    try:
+        y1 = float(input("Y (A): "))
+        x1 = float(input("X (A): "))
+        y2 = float(input("Y (E): "))
+        x2 = float(input("X (E): "))
+        
+        quadrant = int(input("Quadrant (1-4): "))
+        if quadrant not in [1, 2, 3, 4]:
+            print("Fehler: Ungültiger Quadrant.")
+            return
+        
+        dY = y2 - y1
+        dX = x2 - x1
+        
+        t = berechne_richtungswinkel(dY, dX, quadrant)
+        s = berechne_strecke(dY, dX)
+        
+        print("\nErgebnisse:")
+        print("dY:", dY, "dX:", dX)
+        print("t:", round(t, 2), "gon")
+        print("s:", round(s, 2))
+        
+        print("\nFormeln:")
+        print("t = arc tan (dY/dX) + Anpassung je nach Quadrant")
+        print("s = sqrt(dY^2 + dX^2)")
     
-    y1 = float(input("Gib die Anfangskoordinate Y (A) ein: "))
-    x1 = float(input("Gib die Anfangskoordinate X (A) ein: "))
-    y2 = float(input("Gib die Endkoordinate Y (E) ein: "))
-    x2 = float(input("Gib die Endkoordinate X (E) ein: "))
-    
-    quadrant = int(input("In welchem Quadranten befindet sich der Endpunkt? (1/2/3/4): "))
-    if quadrant not in [1, 2, 3, 4]:
-        print("Fehler: Ungültiger Quadrant. Bitte 1, 2, 3 oder 4 eingeben.")
-        return
-    
-    dy = y2 - y1
-    dx = x2 - x1
-    
-    t = berechne_richtungswinkel(dy, dx, quadrant)
-    if t is None:
-        print("Fehler: Ungültiger Quadrant.")
-        return
-    
-    s = berechne_strecke(dy, dx)
-    probe = berechne_probe(y2, x2, y1, x1, t, s)
-    
-    print("\nErgebnisse:")
-    print("Richtungswinkel t:", t, "gon")
-    print("Strecke s:", s, "Einheiten")
-    print("Probe:", probe)
-    
-    print("\nVerwendete Formeln:")
-    print("t = arc tan (dy/dx) + Anpassung je nach Quadrant")
-    print("s = sqrt(dy^2 + dx^2)")
-    print("Probe: (Y2 + X2) - (Y1 + X1) = s * sqrt(2) * sin(t + 50 gon)")
-    
+    except ValueError:
+        print("Fehler: Ungültige Eingabe.")
+
 if __name__ == "__main__":
     main()
-
-
-#in der TaschenRechner hatt Syntax Error in der Line 47
-# es gibt jetzt keine Reaction in TR
-# Probe ist Falsch!
