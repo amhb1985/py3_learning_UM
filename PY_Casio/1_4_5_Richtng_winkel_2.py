@@ -52,6 +52,11 @@ if __name__ == "__main__":
 # 1. ist Formel gleiche wie in der Formel samelung?? 
 #Richtungswinkel = atan2(dy, dx) * 200 / pi + Anpassung je nach Quadrant
 # Die Ergibnisse ist gleich!! weswegen Formel ist gleiche. 
+#es sollte in der lätzte Beschribung für
+#Richtungswinkel = atan2(dy, dx) * 200 / pi + Anpassung je nach Quadrant
+# korregieren nach:
+#Richtungswinkel = arc tan (dy/dx) + Anpassung je nach Quadrant
+#
 
 #2. Probe Fehlt !!!
 #3. eine Kurtze Version für TachenRechne Bildschrimsformat
