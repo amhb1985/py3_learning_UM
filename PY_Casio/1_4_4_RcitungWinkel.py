@@ -21,7 +21,7 @@ def berechne_strecke(dy, dx):
 
 def berechne_probe(y2, x2, y1, x1, t, s):
     """ Berechnet die Probe für die gegebenen Werte. """
-    return (y2 + x2) - (y1 + x1) - (s * math.sqrt(2) * math.sin(math.radians(t + 50)))
+    return (y2 + x2) - (y1 + x1) - (s * math.sqrt(2) * math.sin((t + 50) * math.pi / 200))
 
 def main():
     print("Willkommen zum Koordinatenrechner!")
