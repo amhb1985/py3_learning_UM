@@ -42,7 +42,8 @@ def main():
     print(f"Strecke: {strecke:.2f} Einheiten")
     
     print("\nVerwendete Formeln:")
-    print("Richtungswinkel = atan2(dy, dx) * 200 / pi + Anpassung je nach Quadrant")
+    #print("Richtungswinkel = atan2(dy, dx) * 200 / pi + Anpassung je nach Quadrant")
+    print("Richtungswinkel = arc tan (dy/dx) + Anpassung je nach Quadrant")
     print("Strecke = sqrt(dy^2 + dx^2)")
 
 if __name__ == "__main__":
