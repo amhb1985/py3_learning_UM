@@ -1,7 +1,7 @@
 import math
 
 def berechne_richtungswinkel(dY, dX, quadrant):
-    t = math.atan(dY / dX) * 200 / math.pi  
+    t = math.atan2(dY, dX) * 200 / math.pi  
     if quadrant == 1:
         return t  
     elif quadrant == 2 or quadrant == 3:
@@ -15,8 +15,8 @@ def berechne_strecke(dY, dX):
     return math.sqrt(dY * dY + dX * dX)
 
 def main():
+    print("Koordinaten eingeben:")
     try:
-        print("Koordinaten eingeben:")
         y1 = float(input("Y(A): "))
         x1 = float(input("X(A): "))
         y2 = float(input("Y(E): "))
@@ -33,14 +33,12 @@ def main():
         t = berechne_richtungswinkel(dY, dX, quadrant)
         s = berechne_strecke(dY, dX)
         
-        print("dY=", dY, "dX=", dX)
-        print("t=", round(t, 2), "gon")
-        print("s=", round(s, 2))
+        print("dY:", dY, "dX:", dX)
+        print("t:", round(t, 2), "gon")
+        print("s:", round(s, 2))
     
-    except ValueError:
+    except:
         print("Fehler: Ungültige Eingabe.")
 
-if __name__ == "__main__":
-    main()
-
-#wieder keine Rection
+main()
+#its running!!!
