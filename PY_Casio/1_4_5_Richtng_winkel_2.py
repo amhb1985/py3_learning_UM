@@ -1,3 +1,5 @@
+#das ist nicht fuer TR 
+
 import math
 
 def berechne_richtungswinkel(dy, dx, quadranten):
