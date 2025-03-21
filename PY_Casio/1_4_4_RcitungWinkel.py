@@ -51,4 +51,8 @@ main()
 #1.MicroPython WebREPL: https://micropython.org/webrepl/
 #2.Online Python Compiler (repl.it):https://replit.com/
 
+#für offline :
+#MicroPython 1.9.4 für deine Plattform 
+
+
 
