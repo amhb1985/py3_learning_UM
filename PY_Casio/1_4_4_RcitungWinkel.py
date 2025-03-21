@@ -45,3 +45,10 @@ main()
 #aber ohne beschreibung und Probe.
 
 #hat aber falche rechnen wegen der quadrant
+
+#so wegen jedesmal Verninden TR, finde ich einen Online oder offline IDE für Micro Python:
+#gibt es weniger Online-Emolatoren (da etwa älter ist)
+#1.MicroPython WebREPL: https://micropython.org/webrepl/
+#2.Online Python Compiler (repl.it):https://replit.com/
+
+
