@@ -43,3 +43,5 @@ def main():
 main()
 #its running!!!
 #aber ohne beschreibung und Probe.
+
+#hat aber falche rechnen wegen der quadrant
