@@ -42,7 +42,8 @@ def main():
 
 main()
 #its running!!!
-#aber Berechnen in der 3 te Q ist Falsch!
+#aber Berechnen in der 2te und 3te Quadrant  ist Falsch!
+#vermütlich für erste und 4 te Quadrant ist richtig.
 
 #hat aber falche rechnen wegen der quadrant
 
