@@ -42,7 +42,7 @@ def main():
 
 main()
 #its running!!!
-#aber ohne beschreibung und Probe.
+#aber Berechnen in der 3 te Q ist Falsch!
 
 #hat aber falche rechnen wegen der quadrant
 
@@ -54,5 +54,5 @@ main()
 #für offline :
 #MicroPython 1.9.4 für deine Plattform 
 #so letz do it again
-
+#
 
