@@ -1,15 +1,10 @@
 import math
 
-def berechne_richtungswinkel(dY, dX, quadrant):
-    t = math.atan2(dY, dX) * 200 / math.pi  
-    if quadrant == 1:
-        return t  
-    elif quadrant == 2 or quadrant == 3:
-        return t + 200  
-    elif quadrant == 4:
-        return t + 400  
-    else:
-        return None  
+def berechne_richtungswinkel(dY, dX):
+    t = math.atan2(dY, dX) * 200 / math.pi
+    if t < 0:
+        t += 400
+    return t
 
 def berechne_strecke(dY, dX):
     return math.sqrt(dY * dY + dX * dX)
@@ -22,15 +17,10 @@ def main():
         y2 = float(input("Y(E): "))
         x2 = float(input("X(E): "))
         
-        quadrant = int(input("Quadrant (1-4): "))
-        if quadrant not in [1, 2, 3, 4]:
-            print("Fehler: Quadrant ungültig.")
-            return
-        
         dY = y2 - y1
         dX = x2 - x1
         
-        t = berechne_richtungswinkel(dY, dX, quadrant)
+        t = berechne_richtungswinkel(dY, dX)
         s = berechne_strecke(dY, dX)
         
         print("dY:", dY, "dX:", dX)
