@@ -53,6 +53,6 @@ main()
 
 #für offline :
 #MicroPython 1.9.4 für deine Plattform 
-
+#so letz do it again
 
 
