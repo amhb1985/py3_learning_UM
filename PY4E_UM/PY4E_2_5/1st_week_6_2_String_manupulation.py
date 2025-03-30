@@ -52,6 +52,12 @@ print("Method for searching of Position:")
 print(obst)
 pos = obst.find('Ba')
 print(pos)
-# we can see the Position of the Searching String Ch in it
+# we can see the Position of the Searching String Ch in it.
+
+#searching and Replace:
+gruesse = "Hallo Andy!"
+nstr = gruesse.replace("Andy","Daniel")
+print(nstr)
+
 
 
