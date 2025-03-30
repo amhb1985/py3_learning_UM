@@ -46,17 +46,19 @@ dir(Kollege)'''
 #  .count()
 
 #String - Part 2 :Searching in a String
-# we can using the Method .find() for searcing an exact character or Alphabet as String in it 
+'''# we can using the Method .find() for searcing an exact character or Alphabet as String in it 
 obst = "Kleine Bananen! "
 print("Method for searching of Position:")
 print(obst)
 pos = obst.find('Ba')
 print(pos)
 # we can see the Position of the Searching String Ch in it.
-
+'''
 #searching and Replace:
 gruesse = "Hallo Andy!"
 nstr = gruesse.replace("Andy","Daniel")
+nstr = gruesse.replace("H","X")
+print(gruesse)
 print(nstr)
 
 
