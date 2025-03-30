@@ -55,11 +55,24 @@ print(pos)
 # we can see the Position of the Searching String Ch in it.
 '''
 #searching and Replace:
-gruesse = "Hallo Andy!"
+'''gruesse = "Hallo Andy!"
 nstr = gruesse.replace("Andy","Daniel")
 nstr = gruesse.replace("H","X")
 print(gruesse)
-print(nstr)
+print(nstr)'''
+#Stripping Whitespace. >>>  .lstrip() , .rstrip(), .strip() 
+gruesse = "    Hallo Andy!   "
+lstrip = gruesse.lstrip()
+print(gruesse)
+print(lstrip)
+rstrip = gruesse.rstrip()
+print(rstrip)
+strip = gruesse.strip()
+print(strip)
+
+
+
+
 
 
 
