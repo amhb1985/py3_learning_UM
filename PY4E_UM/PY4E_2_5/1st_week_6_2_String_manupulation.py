@@ -23,11 +23,13 @@ else:
 #String Library 
 
 gruesse = "Hallo Bob!"
+test02 = "HALLLLLOOOO !!!"
 zap = gruesse.lower()
 print(zap)
-
+grosse_test02 = test02.lower()
 #wir können direkt .lower in string Format benutzen!
 print("HALLO nochMall!!".lower())
+print(grosse_test02)
 
 
 '''
