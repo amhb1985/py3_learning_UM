@@ -88,6 +88,6 @@ print(sppos)
 
 host = data[atops+1 : sppos]
 print(host)
-
+#find and show position
 
 
