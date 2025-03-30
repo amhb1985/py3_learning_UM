@@ -89,5 +89,5 @@ print(sppos)
 host = data[atops+1 : sppos]
 print(host)
 #find and show position
-
+# this find between 2 String here @ and another as Space an show the result
 
