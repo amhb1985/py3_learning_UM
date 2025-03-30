@@ -72,13 +72,22 @@ strip = gruesse.strip()
 print(strip)
 '''
 
-#Prefix
-#testting Start String with Prefex
+'''#Prefix
+#Start String with Prefex
 line = "Mit Freundlischen Gruesse"
 Start = line.startswith("mit")
 print(Start)
+'''
+#parsing and Extracting
+data = "From amhb.aaa@uct.ac.za Sat Apr 08 11:22:16 2025"
+atops = data.find('@')
+print(atops)
 
+sppos = data.find(' ',atops)
+print(sppos)
 
+host = data[atops+1 : sppos]
+print(host)
 
 
 
