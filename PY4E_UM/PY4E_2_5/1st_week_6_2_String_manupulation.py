@@ -60,8 +60,9 @@ nstr = gruesse.replace("Andy","Daniel")
 nstr = gruesse.replace("H","X")
 print(gruesse)
 print(nstr)'''
+
 #Stripping Whitespace. >>>  .lstrip() , .rstrip(), .strip() 
-gruesse = "    Hallo Andy!   "
+'''gruesse = "    Hallo Andy!   "
 lstrip = gruesse.lstrip()
 print(gruesse)
 print(lstrip)
@@ -69,8 +70,13 @@ rstrip = gruesse.rstrip()
 print(rstrip)
 strip = gruesse.strip()
 print(strip)
+'''
 
-
+#Prefix
+#testting Start String with Prefex
+line = "Mit Freundlischen Gruesse"
+Start = line.startswith("mit")
+print(Start)
 
 
 
