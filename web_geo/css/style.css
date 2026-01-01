@@ -1,25 +1,15 @@
-/* ================= BODY ================= */
-
-#inhalt {
-    padding: 20px;
+body {
     font-family: Arial, sans-serif;
-}
-
-/* ================= HEADER ================= */
-
-#header {
-    background-color: #f0f0f0;
-    padding: 20px;
-}
-
-#seitenTitel {
     margin: 0;
 }
 
-/* ================= NAVIGATION ================= */
+#header {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
 
 #navigation ul {
-    list-style-type: none;
+    list-style: none;
     padding: 0;
 }
 
@@ -37,47 +27,31 @@
     color: red;
 }
 
-/* ================= HTML BEREICH ================= */
-
-#htmlBereich {
-    margin-bottom: 30px;
+#main {
+    padding: 20px;
 }
 
-#htmlArtikel {
-    border: 1px solid #ccc;
-    padding: 10px;
+img {
+    width: 220px;
+    margin: 10px 0;
 }
 
-#htmlBild {
-    width: 200px;
+table {
+    border-collapse: collapse;
+    margin-bottom: 20px;
 }
 
-/* Hervorgehobener Text */
-#highlight {
-    color: blue;
-    font-weight: bold;
+th, td {
+    border: 1px solid #999;
+    padding: 8px;
 }
 
-/* ================= CSS BEREICH ================= */
-
-#cssArtikel {
-    border: 1px dashed #999;
-    padding: 10px;
+th {
+    background-color: #eee;
 }
-
-#cssBild {
-    width: 200px;
-}
-
-/* ================= FOOTER ================= */
 
 #kontakt {
     background-color: #ddd;
-    padding: 15px;
     text-align: center;
-}
-
-#mailLink {
-    text-decoration: none;
-    font-weight: bold;
+    padding: 15px;
 }
