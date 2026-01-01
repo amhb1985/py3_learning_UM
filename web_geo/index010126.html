@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML & CSS mit ID-Selektoren</title>
+
+    <!-- Externe CSS-Datei -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ===== HEADER ===== -->
+    <header id="header">
+        <h1 id="seitenTitel">HTML & CSS Grundlagen</h1>
+
+        <!-- Navigation -->
+        <nav id="navigation">
+            <ul>
+                <li><a href="#htmlBereich">HTML</a></li>
+                <li><a href="#cssBereich">CSS</a></li>
+                <li><a href="#kontakt">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ===== MAIN ===== -->
+    <main id="inhalt">
+
+        <!-- ===== HTML SECTION ===== -->
+        <section id="htmlBereich">
+            <h2>HTML</h2>
+
+            <article id="htmlArtikel">
+                <p>
+                    HTML steht für <span id="highlight">HyperText Markup Language</span>.
+                </p>
+
+                <!-- Bild Platzhalter -->
+                <img id="htmlBild" src="images/bild1.jpg" alt="HTML Struktur">
+            </article>
+        </section>
+
+        <!-- ===== CSS SECTION ===== -->
+        <section id="cssBereich">
+            <h2>CSS</h2>
+
+            <article id="cssArtikel">
+                <p>
+                    CSS steuert das <strong>Aussehen</strong> von HTML-Seiten.
+                </p>
+
+                <img id="cssBild" src="images/bild2.jpg" alt="CSS Regel">
+            </article>
+        </section>
+
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer id="kontakt">
+        <p id="copyright">
+            © 2025 Amir Habibi
+        </p>
+
+        <!-- Mail-Link -->
+        <a id="mailLink" href="mailto:amir@example.de">E-Mail schreiben</a>
+    </footer>
+
+</body>
+</html>

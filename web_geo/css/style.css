@@ -1,0 +1,83 @@
+/* ================= BODY ================= */
+
+#inhalt {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* ================= HEADER ================= */
+
+#header {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+#seitenTitel {
+    margin: 0;
+}
+
+/* ================= NAVIGATION ================= */
+
+#navigation ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#navigation li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+#navigation a {
+    text-decoration: none;
+    color: black;
+}
+
+#navigation a:hover {
+    color: red;
+}
+
+/* ================= HTML BEREICH ================= */
+
+#htmlBereich {
+    margin-bottom: 30px;
+}
+
+#htmlArtikel {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+#htmlBild {
+    width: 200px;
+}
+
+/* Hervorgehobener Text */
+#highlight {
+    color: blue;
+    font-weight: bold;
+}
+
+/* ================= CSS BEREICH ================= */
+
+#cssArtikel {
+    border: 1px dashed #999;
+    padding: 10px;
+}
+
+#cssBild {
+    width: 200px;
+}
+
+/* ================= FOOTER ================= */
+
+#kontakt {
+    background-color: #ddd;
+    padding: 15px;
+    text-align: center;
+}
+
+#mailLink {
+    text-decoration: none;
+    font-weight: bold;
+}
