@@ -1,6 +1,6 @@
-this is the files to test and learning more about the Python3
-this is the base of the Website Compiler under this addres:
-https://fopp.umsi.education/books/published/fopp/index.html
-
-naturally we must to have a permition to use this compiler 
-
+this is datas for learning and testing during Coursera's Leaning for Python3 . 
+2 main Course: 
+UM and Py4E 
+and 1 main test python script:
+for calculating Surveys Formula in
+Micro python for casio fx-CG50

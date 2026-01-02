@@ -1,0 +1,186 @@
+<!-- diese ist 2 te vVersion für Uebung.-->
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML & CSS Grundlagen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+<header id="header">
+    <h1>HTML & CSS</h1>
+    <p>Amir Habibi – Ernst-Litfaß-Schule – Winter 2025</p>
+
+    <nav id="navigation">
+        <ul>
+            <li><a href="#html">HTML</a></li>
+            <li><a href="#css">CSS</a></li>
+            <li><a href="#tabellen">Tabellen</a></li>
+            <li><a href="#kontakt">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- ================= MAIN ================= -->
+<main id="main">
+
+<!-- ================= HTML ================= -->
+<section id="html">
+    <h2>HTML – Allgemeiner Überblick</h2>
+
+    <p>
+        HTML (HyperText Markup Language) ist die grundlegende Sprache
+        zur Strukturierung von Webseiten.
+    </p>
+
+    <img src="images/bild1.jpg" alt="HTML Grundstruktur">
+
+    <!-- ===== Semantische Tags ===== -->
+    <article>
+        <h3>1. Semantische Tags</h3>
+        <p>Diese Elemente geben dem Inhalt eine inhaltliche Bedeutung.</p>
+
+        <ul>
+            <li>&lt;header&gt;</li>
+            <li>&lt;nav&gt;</li>
+            <li>&lt;article&gt;</li>
+            <li>&lt;section&gt;</li>
+            <li>&lt;footer&gt;</li>
+            <li>&lt;aside&gt;</li>
+        </ul>
+
+        <img src="images/bild2.jpg" alt="Semantische Tags">
+    </article>
+
+    <!-- ===== Hierarchische Tags ===== -->
+    <article>
+        <h3>2. Hierarchische Tags</h3>
+
+        <ul>
+            <li>&lt;head&gt;</li>
+            <li>&lt;body&gt;</li>
+            <li>&lt;main&gt;</li>
+            <li>&lt;h1&gt; – &lt;h6&gt;</li>
+            <li>&lt;ul&gt; / &lt;li&gt;</li>
+        </ul>
+
+        <img src="images/bild3.jpg" alt="Hierarchie HTML">
+    </article>
+
+    <!-- ===== Verknüpfungen ===== -->
+    <article>
+        <h3>3. Verknüpfungen</h3>
+
+        <ul>
+            <li>&lt;link&gt;</li>
+            <li>&lt;a&gt;</li>
+            <li>&lt;img&gt;</li>
+        </ul>
+
+        <img src="images/bild4.jpg" alt="Links und Bilder">
+    </article>
+
+    <!-- ===== Textauszeichnung ===== -->
+    <article>
+        <h3>4. Textauszeichnung</h3>
+
+        <ul>
+            <li>&lt;p&gt;</li>
+            <li>&lt;span&gt;</li>
+            <li>&lt;sub&gt;</li>
+            <li>&lt;sup&gt;</li>
+            <li>&lt;br&gt;</li>
+        </ul>
+    </article>
+</section>
+
+<!-- ================= CSS ================= -->
+<section id="css">
+    <h2>CSS – Grundlagen</h2>
+
+    <p>
+        CSS (Cascading Style Sheets) beschreibt das Aussehen von HTML-Elementen.
+    </p>
+
+    <img src="images/bild5.jpg" alt="CSS Erklärung">
+
+    <article>
+        <h3>CSS-Regel</h3>
+        <p>Eine CSS-Regel besteht aus:</p>
+
+        <ol>
+            <li>Selektor</li>
+            <li>Eigenschaft</li>
+            <li>Wert</li>
+        </ol>
+
+        <img src="images/bild6.jpg" alt="CSS Regel">
+    </article>
+
+    <article>
+        <h3>CSS einbinden</h3>
+
+        <ul>
+            <li>Inline</li>
+            <li>Intern</li>
+            <li>Extern</li>
+        </ul>
+    </article>
+</section>
+
+<!-- ================= TABELLEN ================= -->
+<section id="tabellen">
+    <h2>Übersichten & Tabellen</h2>
+
+    <!-- CSS Regeln -->
+    <h3>CSS-Regel Aufbau</h3>
+    <table>
+        <tr>
+            <th>Thema</th>
+            <th>Beispiel</th>
+        </tr>
+        <tr>
+            <td>CSS-Regel</td>
+            <td>p { color: red; }</td>
+        </tr>
+        <tr>
+            <td>Kommentar</td>
+            <td>/* Das ist ein Kommentar */</td>
+        </tr>
+    </table>
+
+    <!-- Selektoren -->
+    <h3>Selektoren</h3>
+    <table>
+        <tr>
+            <th>Typ</th>
+            <th>Beispiel</th>
+        </tr>
+        <tr>
+            <td>Element</td>
+            <td>p { }</td>
+        </tr>
+        <tr>
+            <td>Klasse</td>
+            <td>.info { }</td>
+        </tr>
+        <tr>
+            <td>ID</td>
+            <td>#header { }</td>
+        </tr>
+    </table>
+</section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer id="kontakt">
+    <p>© 2025 Amir Habibi</p>
+    <a href="mailto:amir@example.de">E-Mail schreiben</a>
+</footer>
+
+</body>
+</html>
