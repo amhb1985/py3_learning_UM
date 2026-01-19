@@ -1,0 +1,54 @@
+Text_Key_Win_in_MacBook
+this is a text data for check to Windows Kwyboards in macbook M1 Keyborads.
+the Goal/Target:
+finding the Greek Alphabets and another Mathematic's Symbole
+to use in Python Script in der Casio Cal fX-CG50 Python program. 
+
+
+Windows 11 Pro ( MacBook M1, in Parallel "De" Keyboards)
+original:
+
+^ 1 2 3 4 5 6 7 8 9 0 ß ´
+q w e r t z u i o p ü  +
+a s d f g h j k l ö ä #
+< y x c v b n m , . -
+
+Shift UP: 
+^ ´ ! " § $ % & / ( ) = ?
+Q W E R T Z U I O P Ü * 
+A S D F G H J K L Ö Ä ' 
+< Y X C V B N M ; : -
+
+option Left :
+
+option(Left) + 0 + ...
+use to edit or another Tasks option.
+
+option (RIGHT) + UP(Numbers)
+
+2: ²
+3: ³
+
+7: {
+8: [
+9: ]
+0: }
+ß: \
+
+option (RIGHT) + Alphabet 
+Q: @
+E: €
+*: ~
+>: |
+M: µ
+
+# Whats the ASCII Key in the MACboook M1? 
+option is alt but its not working!
+Option + ? 
+#ACII (American Standard Code for Information Interchange)
+#dez Dezimaler Wert
+DOS
+Win
+
+
+
